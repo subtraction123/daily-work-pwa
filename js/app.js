@@ -43,7 +43,7 @@ function setGreeting() {
 // ---- Data Loading ----
 async function loadModules() {
   try {
-    const res = await fetch('/data/modules.json');
+    const res = await fetch('./data/modules.json');
     moduleData = await res.json();
   } catch(e) {
     console.error('Failed to load modules:', e);
