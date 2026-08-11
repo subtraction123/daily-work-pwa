@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="theme-color" content="#3D7A5F">
+  <title>Daily Work</title>
+  <link rel="manifest" href="/manifest.json">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <div class="app" id="app">
+    <!-- Sidebar -->
+    <aside class="sidebar" id="sidebar">
+      <div class="sidebar-logo">DW</div>
+      <div class="sidebar-divider"></div>
+      <nav class="sidebar-nav" id="sidebarNav"></nav>
+    </aside>
+
+    <!-- Content Area -->
+    <div class="content-area">
+      <!-- Status Bar -->
+    <div class="status-bar">
+      <span class="time" id="statusTime">9:41</span>
+      <span class="icons">
+        <svg viewBox="0 0 16 16" fill="none"><path d="M8 2C5.5 2 3 3.5 2 6l1.2.8C3.8 5 5.7 3.8 8 3.8s4.2 1.2 4.8 3L14 6c-1-2.5-3.5-4-6-4z" fill="currentColor"/><path d="M8 5C6.3 5 4.8 6 4 7.5l1.2.8C5.6 6.8 6.7 6.1 8 6.1s2.4.7 2.8 2.2L12 7.5C11.2 6 9.7 5 8 5z" fill="currentColor"/><circle cx="8" cy="11" r="2" fill="currentColor"/></svg>
+        <svg viewBox="0 0 16 16" fill="none"><rect x="0.5" y="2.5" width="15" height="11" rx="2" stroke="currentColor" stroke-width="1"/><rect x="2" y="4" width="12" height="7" rx="1" fill="currentColor"/><rect x="14" y="5" width="1" height="2" rx="0.5" fill="currentColor"/></svg>
+      </span>
+    </div>
+
+    <!-- Header -->
+    <div class="app-header">
+      <div class="header-inner">
+        <div>
+          <div class="header-greeting" id="greetingText">上午好</div>
+          <div class="header-name">Hi, Rory!</div>
+          <div class="header-date" id="headerDate">2026年8月3日 星期一</div>
+        </div>
+        <div class="header-avatar">R</div>
+      </div>
+    </div>
+
+    <!-- Main Content -->
+    <div class="main-content" id="mainContent">
+      <!-- ====== HOME SCREEN ====== -->
+      <div class="screen active" id="screen-home">
+        <!-- Stats Row -->
+        <div class="stats-row">
+          <div class="stat-card">
+            <div class="stat-icon">📋</div>
+            <div class="stat-value" id="statTasks">3</div>
+            <div class="stat-label">今日计划</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-icon">💡</div>
+            <div class="stat-value" id="statInspirations">5</div>
+            <div class="stat-label">灵感记录</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-icon">📚</div>
+            <div class="stat-value">9</div>
+            <div class="stat-label">学习模块</div>
+          </div>
+        </div>
+
+        <!-- Calendar -->
+        <div class="section-card">
+          <div class="calendar-header">
+            <span class="calendar-month" id="calendarMonth">2026年8月</span>
+            <div class="calendar-nav">
+              <button onclick="changeMonth(-1)" aria-label="上个月">‹</button>
+              <button onclick="changeMonth(1)" aria-label="下个月">›</button>
+            </div>
+          </div>
+          <div class="calendar-weekdays">
+            <span>日</span><span>一</span><span>二</span><span>三</span><span>四</span><span>五</span><span>六</span>
+          </div>
+          <div class="calendar-days" id="calendarDays"></div>
+        </div>
+
+        <!-- Daily Plan -->
+        <div class="section-card">
+          <div class="section-header">
+            <span class="section-title"><span class="dot"></span>今日计划</span>
+            <span class="section-action" id="planCount">0项</span>
+          </div>
+          <div class="plan-list" id="planList"></div>
+          <div class="plan-add">
+            <input type="text" id="planInput" placeholder="添加今日计划..." maxlength="100">
+            <button onclick="addPlan()">添加</button>
+          </div>
+        </div>
+
+        <!-- Inspiration Mini -->
+        <div class="section-card">
+          <div class="section-header">
+            <span class="section-title"><span class="dot"></span>灵感记录</span>
+            <button class="section-action" onclick="navigateTo('inspiration')">查看全部 →</button>
+          </div>
+          <div class="inspiration-tabs">
+            <button class="inspiration-tab active" onclick="switchInspTab('text', this)">✏️ 文字</button>
+            <button class="inspiration-tab" onclick="switchInspTab('voice', this)">🎙️ 语音</button>
+            <button class="inspiration-tab" onclick="switchInspTab('url', this)">🔗 网址</button>
+          </div>
+          <div id="inspirationInputArea">
+            <div class="inspiration-input-area" id="inspTextArea">
+              <textarea class="inspiration-textarea" id="inspTextInput" placeholder="记录此刻的灵感..."></textarea>
+            </div>
+            <div class="inspiration-input-area" id="inspVoiceArea" style="display:none">
+              <div style="text-align:center;padding:16px">
+                <button class="btn-voice" id="voiceRecordBtn" onclick="toggleVoiceRecord()" style="font-size:16px;padding:12px 24px">
+                  🎙️ 点击开始录音
+                </button>
+                <div id="voiceStatus" style="margin-top:8px;font-size:12px;color:var(--text-tertiary)"></div>
+              </div>
+            </div>
+            <div class="inspiration-input-area" id="inspUrlArea" style="display:none">
+              <div class="url-input-group">
+                <input type="url" id="inspUrlInput" placeholder="粘贴网址链接..." style="flex:1">
+              </div>
+            </div>
+            <div class="inspiration-actions">
+              <span id="inspCharCount" style="font-size:11px;color:var(--text-tertiary);align-self:center">0/500</span>
+              <button class="btn-save" onclick="saveInspiration()">保存灵感</button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- ====== MODULE DETAIL SCREEN ====== -->
+      <div class="screen" id="screen-module">
+        <div class="module-header">
+          <button class="module-back" onclick="navigateTo('home')">←</button>
+          <div class="module-title-area">
+            <div class="module-name" id="moduleDetailName"></div>
+            <div class="module-sub" id="moduleDetailSub"></div>
+          </div>
+        </div>
+        <div id="articleList"></div>
+      </div>
+
+      <!-- ====== ARTICLE DETAIL SCREEN ====== -->
+      <div class="screen" id="screen-article">
+        <div class="module-header">
+          <button class="module-back" onclick="navigateTo('module')">←</button>
+          <div class="module-title-area">
+            <div class="module-name" id="articleDetailTitle" style="font-size:15px"></div>
+            <div class="module-sub" id="articleDetailMeta"></div>
+          </div>
+        </div>
+        <div class="article-detail" id="articleDetailContent"></div>
+      </div>
+
+      <!-- ====== INSPIRATION FULL PAGE ====== -->
+      <div class="screen inspiration-page" id="screen-inspiration">
+        <div class="module-header">
+          <button class="module-back" onclick="navigateTo('home')">←</button>
+          <div class="module-title-area">
+            <div class="module-name">灵感记录</div>
+            <div class="module-sub">文字 · 语音 · 网址收藏</div>
+          </div>
+        </div>
+
+        <!-- Add new -->
+        <div class="section-card">
+          <div class="section-title" style="margin-bottom:12px">记录新灵感</div>
+          <div class="inspiration-tabs">
+            <button class="inspiration-tab active" onclick="switchFullInspTab('text', this)">✏️ 文字</button>
+            <button class="inspiration-tab" onclick="switchFullInspTab('voice', this)">🎙️ 语音</button>
+            <button class="inspiration-tab" onclick="switchFullInspTab('url', this)">🔗 网址</button>
+          </div>
+          <div id="fullInspTextArea" class="inspiration-input-area">
+            <textarea class="inspiration-textarea" id="fullInspTextInput" placeholder="记录此刻的灵感..." style="min-height:100px"></textarea>
+          </div>
+          <div id="fullInspVoiceArea" class="inspiration-input-area" style="display:none">
+            <div style="text-align:center;padding:16px">
+              <button class="btn-voice" id="fullVoiceRecordBtn" onclick="toggleVoiceRecord()" style="font-size:16px;padding:12px 24px">
+                🎙️ 点击开始录音
+              </button>
+              <div id="fullVoiceStatus" style="margin-top:8px;font-size:12px;color:var(--text-tertiary)"></div>
+            </div>
+          </div>
+          <div id="fullInspUrlArea" class="inspiration-input-area" style="display:none">
+            <div class="url-input-group">
+              <input type="url" id="fullInspUrlInput" placeholder="粘贴网址链接...">
+            </div>
+          </div>
+          <div class="inspiration-actions" style="margin-top:8px">
+            <button class="btn-save" onclick="saveFullInspiration()">保存灵感</button>
+          </div>
+        </div>
+
+        <!-- Filter and list -->
+        <div class="section-card">
+          <div class="section-header">
+            <span class="section-title">历史灵感</span>
+            <span style="font-size:11px;color:var(--text-tertiary)" id="inspTotalCount"></span>
+          </div>
+          <div class="inspiration-filter">
+            <button class="filter-chip active" onclick="filterInspirations('all', this)">全部</button>
+            <button class="filter-chip" onclick="filterInspirations('text', this)">文字</button>
+            <button class="filter-chip" onclick="filterInspirations('voice', this)">语音</button>
+            <button class="filter-chip" onclick="filterInspirations('url', this)">网址</button>
+          </div>
+          <div class="inspiration-list" id="fullInspList"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bottom Nav -->
+    <nav class="bottom-nav">
+      <button class="nav-btn active" data-screen="home" onclick="navigateTo('home')">
+        <svg viewBox="0 0 24 24" fill="none"><path d="M3 12l9-9 9 9" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M5 10v10h5v-6h4v6h5V10" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        首页
+      </button>
+      <button class="nav-btn" data-screen="module" onclick="navigateTo('module')">
+        <svg viewBox="0 0 24 24" fill="none"><rect x="3" y="3" width="7" height="7" rx="1" stroke="currentColor" stroke-width="2"/><rect x="14" y="3" width="7" height="7" rx="1" stroke="currentColor" stroke-width="2"/><rect x="3" y="14" width="7" height="7" rx="1" stroke="currentColor" stroke-width="2"/><rect x="14" y="14" width="7" height="7" rx="1" stroke="currentColor" stroke-width="2"/></svg>
+        模块
+      </button>
+      <button class="nav-btn" data-screen="inspiration" onclick="navigateTo('inspiration')">
+        <svg viewBox="0 0 24 24" fill="none"><path d="M12 3l2 7h7l-5.5 4 2 7L12 17l-5.5 4 2-7L3 10h7z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        灵感
+      </button>
+      <button class="nav-btn">
+        <svg viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="10" r="3" stroke="currentColor" stroke-width="2"/><path d="M5 19c0-5 3-7 7-7s7 2 7 7" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+        我的
+      </button>
+    </nav>
+  </div>
+</div>
+
+  <!-- Toast -->
+  <div class="toast" id="toast" style="display:none"></div>
+
+  <script src="/js/app.js"></script>
+  <script src="/js/voice.js"></script>
+  <script src="/js/player.js"></script>
+</body>
+</html>
