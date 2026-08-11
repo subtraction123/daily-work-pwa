@@ -1,14 +1,15 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 180">
-  <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="180" y2="180" gradientUnits="userSpaceOnUse">
-      <stop offset="0%" stop-color="#3D7A5F"/>
-      <stop offset="100%" stop-color="#2D5A47"/>
-    </linearGradient>
-  </defs>
-  <!-- Background (iOS icons need specific rounding — iOS will clip it anyway) -->
-  <rect width="180" height="180" rx="40" fill="url(#bg)"/>
-  <!-- DW text -->
-  <text x="90" y="98" text-anchor="middle" fill="white" font-size="60" font-family="Inter, -apple-system, sans-serif" font-weight="700" letter-spacing="-1">DW</text>
-  <!-- Bottom accent line -->
-  <rect x="52" y="114" width="76" height="3.5" rx="1.75" fill="rgba(255,255,255,0.35)"/>
+  <rect width="180" height="180" rx="40" fill="#3D7A5F"/>
+  <ellipse cx="90" cy="100" rx="60" ry="53" fill="#FFFFFF"/>
+  <polygon points="39,65 52,39 71,60" fill="#FFFFFF"/>
+  <polygon points="44,60 51,44 62,57" fill="#FFB3B3"/>
+  <polygon points="141,65 128,39 109,60" fill="#FFFFFF"/>
+  <polygon points="136,60 129,44 118,57" fill="#FFB3B3"/>
+  <circle cx="71" cy="93" r="11" fill="#2D2D2D"/>
+  <circle cx="73" cy="91" r="3" fill="#FFFFFF"/>
+  <circle cx="109" cy="93" r="11" fill="#2D2D2D"/>
+  <circle cx="111" cy="91" r="3" fill="#FFFFFF"/>
+  <ellipse cx="90" cy="116" rx="4.5" ry="3.5" fill="#FFB3B3"/>
+  <path d="M90 119 Q85 126 79 123" stroke="#2D2D2D" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+  <path d="M90 119 Q95 126 101 123" stroke="#2D2D2D" stroke-width="1.5" fill="none" stroke-linecap="round"/>
 </svg>
