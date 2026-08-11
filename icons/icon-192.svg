@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 192">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="192" y2="192" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#3D7A5F"/>
+      <stop offset="100%" stop-color="#2D5A47"/>
+    </linearGradient>
+  </defs>
+  <!-- Background -->
+  <rect width="192" height="192" rx="42" fill="url(#bg)"/>
+  <!-- Subtle inner ring -->
+  <rect x="8" y="8" width="176" height="176" rx="34" fill="none" stroke="rgba(255,255,255,0.08)" stroke-width="2"/>
+  <!-- DW text -->
+  <text x="96" y="104" text-anchor="middle" fill="white" font-size="64" font-family="Inter, -apple-system, sans-serif" font-weight="700" letter-spacing="-1">DW</text>
+  <!-- Bottom accent line -->
+  <rect x="56" y="120" width="80" height="4" rx="2" fill="rgba(255,255,255,0.4)"/>
+</svg>

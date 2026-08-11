@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 180">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="180" y2="180" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#3D7A5F"/>
+      <stop offset="100%" stop-color="#2D5A47"/>
+    </linearGradient>
+  </defs>
+  <!-- Background (iOS icons need specific rounding — iOS will clip it anyway) -->
+  <rect width="180" height="180" rx="40" fill="url(#bg)"/>
+  <!-- DW text -->
+  <text x="90" y="98" text-anchor="middle" fill="white" font-size="60" font-family="Inter, -apple-system, sans-serif" font-weight="700" letter-spacing="-1">DW</text>
+  <!-- Bottom accent line -->
+  <rect x="52" y="114" width="76" height="3.5" rx="1.75" fill="rgba(255,255,255,0.35)"/>
+</svg>
