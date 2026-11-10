@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-09T08:45:00+08:00",
+  "lastUpdated": "2026-11-10T09:23:21+08:00",
   "modules": {
     "digital-news": {
       "title": "数字化资讯",
@@ -8,27 +8,19 @@
       "articles": [
         {
           "id": "dn-001",
-          "title": "实在智能发布Soiawork平台：不改造成存量系统，让ERP/MES直接参与AI协作",
-          "summary": "实在智能发布企业级AI智能体平台Soiawork，通过连接器与电脑操作两种能力，在不改造原有系统的前提下连接ERP、MES、CRM等存量业务系统，并通过知识库、Skill与Workflow沉淀企业工作方法，面向制造业与跨境电商场景。",
-          "source": "搜狐科技",
-          "time": "2026-11-09",
-          "content": "\n## 一句话解读\n企业AI落地的最大堵点从来不是模型，而是存量系统改不动。Soiawork的思路是绕过改造，直接让AI长在现有ERP、MES之上。\n## 平台做了什么\n2026年11月3日，实在智能正式发布企业级AI智能体平台Soiawork（树芽工作）。官方定位是支持企业AI组织建设：AI不再只是一个对话窗口，而是围绕业务任务与人协作的“数字员工”。\n### 两种连接能力\n- 连接器模式：对提供API、MCP等开放接口的软件，直接调用受支持的操作，适合金蝶、用友等接口完备的现代化系统。\n- Worker模式：对缺少接口、只能界面操作的老旧系统，通过安装在执行设备上的Worker，结合RPA与Computer Use Agent完成适配范围内的任务。\n- 用户还可以通过对话创建自定义连接器，企业版提供专属的软件自学习能力，适配复杂系统。\n### 知识沉淀与治理\nSoiawork通过知识库、Skill与Workflow三层结构，把企业经验沉淀下来并直接挂在任务上复用。治理侧提供集中工作空间、权限管理、积分与用量分析，确保“操作有边界、过程可追溯”。\n## 对企业数字化项目部的启示\n- AI选型新增一个关键评估项：连接能力。接口覆盖率决定AI能触达多少业务现场。\n- 存量老系统不必急着推翻重造，外挂智能体是过渡期的高性价比方案。\n- 治理先行：上线前先定人机确认点与权限边界，避免AI在核心业务系统里“自由发挥”。\n## 一点判断\n实在智能已服务超过6000家企业，此次独立产品线聚焦“AI组织体系”，说明厂商竞争正从模型能力转向企业协作架构。对项目经理而言，这预示未来数字化项目的验收标准会从“功能上线”转向“AI任务完成率”。\n"
+          "title": "IDC发布2026年中国PLM市场报告：64.7亿元规模下，选型逻辑从“买软件”转向“买研发制造协同能力”",
+          "summary": "IDC《2026年中国PLM市场跟踪报告》显示，2025年中国PLM市场规模达64.7亿元、同比增长14.3%，汽车及零部件、装备制造、医疗器械合计贡献47.6%采购额。AI能力成为选型高分项，但真正值钱的是AI是否落入BOM查重、变更影响分析等研发实景。",
+          "source": "网易科技 / IDC",
+          "time": "2026-11-10",
+          "content": "\n## 一句话解读\n企业软件市场正在完成一次价值重估：厂商比拼的不再是功能清单长度，而是“能不能把研发与制造的数据链真正串起来”。PLM市场14.3%的增速，就是这场重估的量化注脚。\n## 市场数据：谁在买单\nIDC《2026年中国PLM市场跟踪报告》给出三个关键数字：\n- 2025年中国PLM市场规模达到64.7亿元，同比增长14.3%，在制造业软件普遍“降本”的大背景下逆势上扬。\n- 汽车整车及零部件、装备制造、医疗器械三个行业合计贡献47.6%的采购额，说明高复杂度离散制造是PLM的绝对主力客群。\n- 市场格局上，鼎捷、用友在中小离散制造盘面提及率较高，豪森软件NextPLM等在汽车整车等高端制造项目交付里表现突出。\n这组数据背后的结论很直白：市场正在从“买软件”转向“买落地的研发制造协同能力”。企业愿意为的不再是图文档管理这个基本盘，而是项目管理、制造数据打通、变更闭环这些真正影响交付的东西。\n## 2026年选型的三个新变化\n### AI从话术变成硬指标\n现在厂商都在讲AI，但报告提醒企业要判断的是：AI有没有进入相似件推荐、BOM查重、变更影响预测、文档自动分类这些实际研发场景。比如设计人员新建零件时，系统能提示“库里已有类似件”，这比一个通用对话框问答实用得多。判断标准很简单——AI要长在业务流程里，而不是悬浮在界面右上角。\n### 数据质量排在AI之前\n报告把数据质量放在AI之前，逻辑很朴素：数据乱，AI给出的结果也不会可靠。这也是很多企业上线AI模块效果不佳的根因——BOM不规范、编码不统一，模型再好也是在垃圾上做推理。\n### PLM与ERP边界重新校准\nPDM偏图文档、版本、BOM；ERP管采购、库存、生产、财务。2026年很多系统在互相延伸边界，但选型时心里要有数：PLM的强项是研发侧数据和流程，ERP的强项是执行侧资源和成本，两者可以集成但不宜互相替代。实施顺序上，一般建议先理清PLM里的物料和BOM，再进ERP跑计划和成本。\n## 对数字化项目部的启示\n- 立项评估PLM时，把“AI落在哪三个具体研发场景”写进评分表，杜绝演示环境里的空谈。\n- 把BOM与编码治理列为PLM项目的前置任务，预算上给数据治理留出独立份额。\n- 与ERP的集成接口（物料、BOM、变更单）在设计阶段就要定义清楚，避免后期两套系统各说各话。\n## 常见误区\n- 只买PDM以为省了钱，后面项目管理、变更、工艺需求一出现才发现被迫二次采购，整体成本反而更高。\n- 把PLM选型当成IT部门的事，研发、工艺、质量不参与，上线后业务拒绝使用。\n- 追求一步到位全模块上线，正确的节奏是先啃图纸与变更这两个最痛的模块，再逐步扩展。\n"
         },
         {
           "id": "dn-002",
-          "title": "滕州机床产业样本：AI落地的前提是ERP、MES的数据根基",
-          "summary": "山东滕州机床产业深化“人工智能+制造”融合。山森数控依托ERP规范订单全流程、MES闭环管控车间质量，再叠加AI光学检测与供需平衡；清峦福兴则以工业智能体整合调度、数字孪生与企业管理全链条。产业产值已突破260亿元。",
-          "source": "新华财经",
-          "time": "2026-11-09",
-          "content": "\n## 案例背景\n滕州是全国重要的机床产业基地，拥有各类机床企业1200余家，产业产值突破260亿元，产品覆盖15个大类、上千个品种，30%实现出口、远销90多个国家和地区。近期两家企业的实践，恰好代表了制造业AI落地的两个阶段。\n## 阶段一：先筑数据底座，再上AI\n山森数控是机床电气配套件龙头，生产特点是多品种、小批量、短交期。它的路径非常清晰：\n- ERP层：规范物料成本、客户订单全流程管理。\n- MES层：实现车间工艺与产品质量的闭环数字化管控。\n- AI层：在数据底座稳固后，将AI用于集成电路板自动化光学检测、生产效率调控、物料供需平衡等关键环节。\n其副总经理张子恒的原话值得抄进任何数字化项目章程：AI技术能不能落地用好，关键不看算法多先进，而看ERP、MES等系统的基础数据是否规范完备。\n## 阶段二：AI与制造全链条深度融合\n清峦福兴走得更远：依托灵犀智能调度系统联动工业机器人与AI机床协同作业；用数字孪生搭建虚实一体车间，预判工艺隐患、优化生产节拍；自研清峦Claw工业智能体替代传统人工电脑操作，整合设备调度、工业软件与企业管理，创新快工单生产管理模式。\n## 可迁移的三条经验\n- 顺序不能错：先ERP/MES数据治理，后AI应用，否则智能只是空转。\n- 政企协同：滕州市工信局常态化走访、精准对接扶持政策，是县域集群转型的推手。\n- 从单点到输出：龙头企业完成自身智能化后向全产业链输出方案，带动集群整体跃升。\n"
-        },
-        {
-          "id": "dn-003",
-          "title": "欧盟AI法案进入执法期，企业软件厂商加速内置模型治理能力",
-          "summary": "欧盟及多国监管机构对高风险AI系统从起草指引转向主动执法，倒逼ERP、CRM厂商把模型溯源、人机审核门槛、防篡改审计日志、模型版本API直接做进产品。实施团队报告中型项目的集成工作量因此增加10%到25%，但厂商宣称全生命周期ROI反而更优。",
-          "source": "Enterprise Software Review",
-          "time": "2026-11-09",
-          "content": "\n## 发生了什么\n2026年11月的最新报道显示，欧盟AI法案的执法压力正在改变企业软件的产品路线图：厂商不再让客户自行外挂合规组件，而是把模型治理能力产品化。\n### 产品内置的五类治理功能\n- 溯源与血统：端到端追踪输入、模型版本与输出，审计时可重建每个决策。\n- 可配置治理策略：策略引擎支持阈值、审批流与高风险交易的人工介入。\n- 审计与留存：防篡改日志，兼容legal hold与eDiscovery流程。\n- 集成钩子：API、Webhook与SDK，把治理接入现有IAM、SIEM与变更管理平台。\n- 规模化性能控制：多租户隔离、自动扩缩与资源配额，保证受治理模型在企业规模下稳定运行。\n## 对实施项目的实际影响\n实施伙伴反馈，典型部署新增一个治理冲刺：识别哪些AI组件属于高风险、定义human-in-the-loop阈值、把模型日志汇入中央审计存储。中型项目集成时间增加10%-25%，受监管的大型组织更高。厂商则主张：内置治理减少了定制合规适配器和法务审查周期，长期净ROI更优。\n## 给国内从业者的三个提醒\n- 出海业务的企业应把模型治理当采购硬指标，而非可选项。\n- 数据驻留与遥测冲突需要中间件或安全代理解决，预算里要提前留出这块。\n- 国内监管（算法备案、生成式AI管理办法）趋势相似，早治理早受益。\n"
+          "title": "SOLIDWORKS 2027创新日落地：达索DELMIAWORKS贯通“设计—制造—决策”，企业AI先建规范再上工具",
+          "summary": "华睿信息与达索系统SOLIDWORKS 2027新产品发布会温州站落幕，围绕PDM/PLM、AI辅助仿真、DELMIAWORKS制造运营三条主线，传递一个清晰路径：AI提供可能，标准化建立基础，PLM构建数据底座，仿真沉淀工程数据。企业AI转型不应从追逐模型开始，而应从梳理数据资产开始。",
+          "source": "腾讯新闻 / 羊城网",
+          "time": "2026-11-10",
+          "content": "\n## 一句话解读\n制造业企业级AI的正确打开方式，不是先买大模型，而是先把自己家的图纸、流程、仿真数据收拾干净——SOLIDWORKS 2027创新日把这条路径讲得很具体。\n## 事件概要\n华睿信息与达索系统联合举办的SOLIDWORKS 2027新产品发布会（创新日）温州站落幕。活动围绕五场专题分享展开：SOLIDWORKS工具升级与AI趋势、产品标准化与参数化设计、PLM数据治理、企业仿真体系与自动化实践，最后由达索系统DELMIAWORKS大中华区技术团队展示从设计到制造的贯通方案。\n## 三个值得记录的实践细节\n### AI辅助研发，先划数据边界\n华睿信息分享了利用AI辅助开发PDM插件、定制业务看板、优化流程操作及物料属性同步的实践思路，同时特别强调公有AI工具与企业私有数据的应用边界：用AI提高工具开发和业务操作效率，但企业图纸、模型及敏感数据必须建立受控管理机制。这个“效率归AI、主权归企业”的划分，是目前制造企业最可执行的AI安全基线。\n### 仿真体系建设先于仿真软件\n华睿信息分析工程师指出，仿真软件的引入并不等于企业已具备成熟的仿真能力，只有建立统一的分析规范、网格标准、边界条件及仿真流程SOP，仿真才能从依赖少数专家的单点操作，转向标准化、平台化和自动化。现场通过稳定杆、弹簧案例展示了参数输入、自动网格划分、求解计算、报告生成的全自动化流程，并将仿真数据沉淀到数据库，用机器学习建立预测模型。\n### 从设计到制造的数据贯通\n达索系统DELMIAWORKS的演讲围绕SOLIDWORKS与DELMIAWORKS协同，展示AI辅助工艺规划、制造BOM、生产排程、现场执行、质量追溯、供应链及成本管理的完整链路——这正是设计端PLM与制造端MES打通的典型范本。\n## 为什么这条新闻值得数字化团队看\n- 它给出了一条可复制的路径排序：AI技术提供可能 → 标准化与参数化建立执行基础 → PLM构建产品数据底座 → 仿真体系沉淀工程数据 → AI进入核心业务。\n- 它提醒企业：AI转型不从追逐模型开始，而从梳理自身产品、业务流程、数据资产和工程经验开始。\n## 对我们的借鉴\n- 评估厂商时，把“仿真/研发数据是否能沉淀为可复用资产”列为高权重项。\n- 仿真能力建设优先投SOP与规范，其次才是软件许可。\n- 制造端选型可与设计端PLM做联合POC，验证MBOM、排程、追溯的数据贯通。\n"
         }
       ]
     },
@@ -39,19 +31,19 @@
       "articles": [
         {
           "id": "ia-001",
-          "title": "代理式商务元年：Walmart开放Agent购物，快消行业迎来渠道范式转移",
-          "summary": "Walmart于10月21日开放Agent Profiles与Agent Gateway，约7000亿美元年销售额的货架首次向AI买家敞开；GreenCore随即推出A2A-Grocery.ai枢纽，聚合品牌AI代理覆盖20个市场197万个销售点。美国AI购物采用率已达37%，快消与杂货是领先品类。",
-          "source": "FairsOnline / CivicScience",
-          "time": "2026-11-09",
-          "content": "\n## 事件全景\n2026年快消行业最大的结构性变量，不是某个新渠道，而是“购物者本人”正在被AI代理替代。\n### 关键节点\n- 10月21日：Walmart发布Agent Profiles、Agent Gateway与AI代理条款，获批代理可通过MCP协议在消费者设定的限额内搜索库存并代为下单。\n- 11月3日：GreenCore Solutions发布A2A-Grocery.ai代理式购物枢纽，品牌自带代理入驻，覆盖20个市场、8619个零售品牌、197万个销售点。\n- 结算层：gtinfetch.ai作为订单第二因子校验条码（数据库8400万条GTIN），并支持x402协议在同一调用内完成支付，即所谓KYT（know your transactions）。\n## 需求侧数据\n- CivicScience：美国AI购物采用率Q3达37%，连续8个月上升，杂货以32%领先。\n- BCG：81%美国消费者、53%欧洲消费者预期将使用AI代理购物。\n- Deloitte：超半数欧洲受访者已在用，另有27%打算用。\n- Blue Yonder警示：近四分之一美国消费者按AI推荐买过东西，其中近半发生退货，多为与描述不符。\n## 对快消品牌的四个行动建议\n- 代理可发现性：单独建MCP连接难以被购物代理发现，评估接入聚合枢纽的成本收益。\n- 商品数据机器可读：GTIN、条码、成分、价格规则必须结构化，否则代理无法校验与下单。\n- 定价与促销规则重建：代理按品牌规则逐市场执行，规则引擎将成为新的“货架管理员”。\n- 退货治理：AI推荐带来的描述不符退货率上升，需要把商品页质量纳入代理渠道KPI。\n## 判断\n代理式商务对快消的意义类似当年电商：先建基础设施者获得渠道红利，观望者将在代理的默认推荐里失去陈列位。\n"
+          "title": "中粮可口可乐陕西工厂获评省级先进级智能工厂：一套“工业大脑”如何统筹七大平台",
+          "summary": "中粮可口可乐陕西公司生产全链条数智化智能工厂入选陕西省2026年度先进级智能工厂名单。该厂以供应链中台“工业大脑”统筹数智采购、数智能源、数智物流等七大平台，MDS数智化生产线、WMS智能仓储协同运行，年产能超112.9万吨，为快消制造业数字化转型提供样本。",
+          "source": "中国青年网",
+          "time": "2026-11-10",
+          "content": "\n## 一句话解读\n快消行业的智能工厂不追黑灯实验室概念，而是把采购、生产、能耗、物流、质量做成一套可调度的“数据操作系统”——中粮可口可乐陕西厂是教科书式的全链条样本。\n## 工厂基本情况\n该厂位于西安经开区泾渭工业园，2025年9月建成投产，占地170亩，配置7条饮料生产线与1条糖浆生产线，达产后年产能超112.9万吨，承担西北区域饮品保供职能。不同于传统工厂的局部设备改造，新工厂立足饮料行业多品类、严质控的特点推进生产全链条数智化。\n## 数智化架构拆解\n### 中台大脑：七大平台数据打通\n一套供应链中台“工业大脑”统筹全厂运转，打通数智采购、数智能源、数智物流等七大平台数据，生产、质量、能耗、物流数据在数字驾驶舱集中呈现，管理人员实现全局可视化调度。这是典型的“中台化”工业架构：把分散在采购、生产、物流的系统数据汇到一层，再向调度决策输出。\n### 车间层：自动化与机器视觉\n- 吹贴灌旋一体机、机器视觉在线检测设备高效运转，机械手完成箱体码垛转运。\n- 仓储库区AGV无人叉车承担货物转运出入库，仓储物流环节少人化运行。\n### 质量层：一物一码全链路追溯\n依托QMS质量管理系统，工厂搭建原料到成品的全链路追溯体系，落实“一物一码”管理，便于质量信息查询与复盘，夯实食品安全管理基础。\n### 运营层：数智化延伸到管理环节\n智能排产系统结合订单、库存及产能辅助计划编制；设备运维平台落实预防性维护，降低非计划停机风险；AI安全视频预警系统筑牢厂区安全防线；能源与污水在线监测平台把绿色低碳融入生产环节。面向终端市场，可乐GO数字化服务平台打通业务代表与零售网点对接链路。\n## 行业启示\n- 快消行业智能工厂的评估重点不是机器人数量，而是数据贯通的深度：从订单到排产、从能源到质量，能不能在一个驾驶舱里看完。\n- “中台大脑+七大平台”的架构对多品类工厂有普适性，适合作为饮料、乳品、调味品等品类工厂的参考蓝图。\n- 数智化还要回答“人才培养”问题：该厂与本地高校共建实训合作，制造业数字化技能人才的本地化供给是长期竞争力。\n## 常见误区\n- 只上设备不上中台，各系统数据孤岛，驾驶舱变成展示屏。\n- 追溯体系只覆盖成品环节，原料与半成品断链，一物一码名存实亡。\n"
         },
         {
           "id": "ia-002",
-          "title": "宝洁进博会圆桌：未来消费品公司是人与AI共生的组织",
-          "summary": "第九届进博会期间，宝洁召集业务、研发、供应链与数字化管理者探讨AI时代消费品公司的形态：研发端用大数据+小数据双轮洞察消费者，供应链用实时检查替代抽样放行实现一键投产，组织上坚持“AI感知世界、人定义价值”的分工，并与阿里云瓴羊以Data、Agent、FDE三要素共建生态。",
-          "source": "凤凰网商业",
-          "time": "2026-11-09",
-          "content": "\n## 为什么值得研读\n这不是一场发布会式的公关活动，而是头部快消对“AI如何重构消费品公司”的一次系统性表态。三个判断标准、一条供应链原则、一组生态方法论，都可直接借鉴。\n## 研发：大数据与小数据结合\n宝洁研发中心负责人给出AI应用的三个维度：通过海量社媒与电商数据“看消费者说什么”；借助智能设备与多模态AI“看消费者做了什么”；用AI大幅缩短研发周期。但他强调核心能力在于把大数据与小数据结合——小数据来自走进消费者生活场景的一手观察，这是算法替代不了的部分。\n## 供应链：从一键转产到一键投产\n宝洁大中华区供应链总裁江蓉披露的实践非常具体：\n- 质量控制从传统抽样放行升级为生产线实时检查。\n- 模块化柔性平台高效组合不同配方与包装，兼顾规模化成本与新品上市速度。\n- 原话对比：以前说一键转产，今天可以一键投产。\n## 生态：Data、Agent、FDE三要素\n阿里云瓴羊CEO朋新宇把双方合作拆成三层：先用AI方式链接数据、理解消费者；再把数据灌入大模型赋能AI投流等应用；最终让数据与AI共同服务商业模式增长。FDE（前沿部署工程师）驻场模式被反复提及——AI落地拼的是最后一公里的工程能力。\n## 组织原则\n全场最重要的一句话：AI数据负责感知世界的实际情况，但只有人能赋予AI灵魂——要达成什么目的，由人定义。对正在推进AI项目的企业，这等于给出组织分工的答案：机器负责感知与计算，人负责定义价值与最终决策。\n"
+          "title": "美联邦政府“停摆”40天创最长纪录：供应链短缺警报下的企业风险课",
+          "summary": "美国财长贝森特警告，联邦政府“停摆”已持续40天、为史上最长，货物运输速度放缓，供应链和节假日消费可能出现短缺问题。这一事件为所有企业敲响供应链韧性警钟：外部环境剧变时，缺乏可视化与预案的供应链最先崩断。",
+          "source": "每日经济新闻 / 央视新闻",
+          "time": "2026-11-10",
+          "content": "\n## 一句话解读\n政府停摆不是遥远的美国新闻——它是一堂公开课：供应链的脆弱性藏在“看不见的等待”里，企业能做的是把等待变成可见、可测、可替代。\n## 事件梳理\n据央视新闻报道，美国财政部长贝森特11月10日警告，目前美国的货物运输速度放缓，由于政府持续“停摆”，最终可能出现供应链环节或节假日消费期间的短缺问题。他表示经济“每况愈下”。此次“停摆”已持续40天，是联邦政府史上最长的一次，期间通胀压力持续攀升。\n## 供应链视角的传导链条\n政府停摆影响供应链的路径并不神秘：\n- 监管与审批停摆：港口、海关、食品药品检验等联邦机构人力受限，货物清关与检验排队时间拉长，运输速度整体放缓。\n- 数据断流：政府发布的宏观经济与物流统计数据延迟，企业失去关键决策输入，计划部门只能凭滞后信息排产。\n- 信心与需求端收缩：节假日临近，零售与物流企业观望情绪加重，补货决策推迟，进一步放大波动。\n## 对企业供应链管理的四点启示\n### 1. 可视化是韧性的前提\n很多企业的痛点不是没有备选方案，而是根本不知道自己在哪里受阻。把物流节点、清关状态、供应商产能纳入统一监控，才能在异常发生的第一时间定位。\n### 2. 关键物料要设“停摆情景”\n对单一来源、长交期物料，应预演“外部审批与物流普遍延迟30天”情景下的库存安全线与替代路径，把预案写进SOP而不是留在脑中。\n### 3. 旺季前主动提前期\n节假日季是需求峰值叠加外部扰动的高危窗口。提前锁量、提前发运、适度拉高安全库存，代价可控，缺货的代价则直接体现在营收与客户信任上。\n### 4. 数据断供要有替代源\n政府统计延迟时，可用行业平台数据、物流商运营数据、自身POS与订单数据构建内部先行指标，保持计划系统的输入不中断。\n## 常见误区\n- 把供应链风险等同于供应商风险，忽视了口岸、检验、政策等“非供应商”环节。\n- 只在出事后补救，没有把外部事件情景化纳入年度风险评估。\n- 过度追求库存最低化，把精益做成脆断。\n"
         }
       ]
     },
@@ -62,27 +54,27 @@
       "articles": [
         {
           "id": "al-001",
-          "title": "湖南电信FDE模式：Dify+私有化Qwen，华能国际合同审核智能体1到2周上线",
-          "summary": "湖南电信前沿部署工程师团队通过天翼智盒为华能国际湖南分公司私有化部署Qwen3.6-35B-A3B大模型，预装Dify低代码平台，企业自主搭建合同审核智能体，数据不出内网实现条款解析与风险提示，项目仅1至2周上线并稳定运行。该FDE团队已服务数十家湖南企业。",
-          "source": "新湖南客户端",
-          "time": "2026-11-09",
-          "content": "\n## 案例拆解\n这是一个教科书级的“运营商FDE+开源平台”落地样本，完整回答了传统企业AI转型最关心的三个问题：数据怎么不出内网、多久见效、谁来维护。\n### 技术架构\n- 算力与模型：天翼智盒一体机承载私有化部署的Qwen3.6-35B-A3B，模型不大但够用，主打内网环境。\n- 应用层：预装Dify低代码平台，业务人员可自主编排合同审核智能体的工作流。\n- 交付模式：湖南电信FDE团队负责部署与调优，企业侧自主迭代。\n### 业务效果\n此前华能湖南的合同审核耗时费力、易遗漏风险条款；智能体上线后实现条款解析与风险提示，数据不出内网，1至2周上线并稳定运行。配套政策同样值得关注：湖南每年发放1亿元算力券，按企业年度算力总支出30%补贴、最高1000万元。\n### 同场加映\n报道还披露湘钢依托盘古工业大模型，用8台高清工业相机对线材360度抓拍实现边生产边纠错，近5年智慧工厂累计投资10亿元、年直接经济效益超5000万元。\n## 可复用的三点方法论\n- 中小模型+私有化是传统企业的现实起点，不必追求最强模型。\n- Dify这类低代码平台让业务方接管迭代，IT只管底座，落地速度翻倍。\n- FDE驻场是缩短从POC到生产的桥：找有驻场交付能力的伙伴，比比价更重要。\n"
+          "title": "Dify重构Agent架构：从工作流节点到独立智能体，运维工作量下降七成",
+          "summary": "Dify对Agent架构进行彻底重构：把绑定在工作流里的Agent节点升级为可独立管理、跨流程复用的标准化智能体。新架构包含独立资源托管、异步微服务执行、全链路追踪、插件化推理策略四大改造，官方称运维维护工作量下降约七成，长周期多轮任务稳定性显著增强。",
+          "source": "t0001.com 快讯",
+          "time": "2026-11-10",
+          "content": "\n## 一句话解读\nDify这波重构解决的是所有Agent平台的共同病：Agent从“画布上的一次性节点”变成“可长期迭代的能力资产”。这是POC走向生产的必经之路。\n## 为什么旧架构撑不住了\n旧版Agent只是工作流里的一个普通节点，所有配置和生命周期都依附于当前画布。痛点非常具体：\n- 复用要复制：同一个业务智能体要在十多条工作流里使用，只能反复复制提示词、工具集、知识库，改一处要逐条更新，极易版本不一致。\n- 同步执行易超时：旧版执行逻辑是同步运行，多轮循环任务容易超时，日志链路零散，出问题很难定位故障环节。\n- 耦合度高难扩展：工具、模型、推理逻辑打包在一起，新增推理策略或第三方工具要改核心代码，迭代跟不上业务。\n随着大量用户把Agent从POC推向生产，团队协作、版本管理、调用监控、跨业务复用的需求集中爆发，官方决定不做小修小补，直接重做整套Agent运行框架。\n## 新架构的四大改造\n### 1. Agent成为独立可托管资源\nAgent从工作流节点拆出来，单独保存模型参数、提示词、技能工具与知识库，实现一处维护、多处调用。这是从“节点”到“资产”的本质变化——Agent开始有自己的版本管理、历史回滚和独立监控。\n### 2. 同步改异步微服务\n把编排逻辑和工具调用执行拆成两个独立模块，长任务不再阻塞主流程，多轮循环的超时问题大幅缓解。\n### 3. 全链路追踪\n每一轮思考、工具调用、模型返回都被记录，方便排查运行异常。结合此前Dify 1.19.0推出的嵌套工作流逐层追踪，可观测性已经形成完整闭环。\n### 4. 推理策略插件化\nReAct、函数调用等推理策略做成可插拔组件，不改核心代码就能切换执行模式。\n## 效果与选型启示\n官方总结：跨应用复用效率大幅提升，运维维护工作量下降七成，长周期多轮任务稳定性显著增强。对正在选型Agent平台的团队，这一事件给出一个判断标准：平台是否把Agent作为一等公民管理——有独立版本、独立监控、可跨应用复用，才配得上“企业级”三个字。那些仍把Agent锁死在画布节点里的平台，规模化落地时都会撞上同样的墙。\n"
         },
         {
           "id": "al-002",
-          "title": "青岛港星港大模型实战：泊位计划从3小时压到1分钟，幻觉靠知识图谱抑制",
-          "summary": "国内首个港口行业大模型星港在山东港口青岛港投入实战，参数量350亿，融合千亿级港口数据与业务规则，覆盖80余个业务场景。泊位计划编制从资深调度员的3至4小时压缩至1至3分钟，准确率稳定在90%以上，带动码头通过能力提升10%、综合能耗成本下降8%。",
-          "source": "人民网山东频道",
-          "time": "2026-11-09",
-          "content": "\n## 核心数据\n- 参数量350亿，融合千亿级港口数据与业务规则，覆盖生产、安全、港航服务80余个场景。\n- 泊位计划编制：3至4小时到1至3分钟，方案准确率90%以上。\n- 码头通过能力提升10%，堆场搬倒率下降5%，综合能耗成本下降8%。\n- 安全：秒级识别133种违章行为；口岸服务：两小时询价方案十几秒生成。\n## 最值得学的一招：知识图谱锚定业务规则\n大模型在垂直行业落地最大的拦路虎是幻觉。星港的做法是把船舶、泊位、安全规则构建成港口知识图谱，让模型每一步决策都锚定真实业务规则，从源头抑制幻觉。这个思路可以平移到任何强规则行业：制造排产、财务审核、合规审查——先建领域知识图谱，再让模型在图谱约束下推理，而不是裸奔。\n## 垂直大模型vs通用模型的选型启示\n- 场景强规则、强专业（泊位调度、安全违章）：垂直模型+知识图谱胜出。\n- 场景通用、数据敏感度低：直接用通用大模型+提示工程更划算。\n- 投入产出核算：星港是山东垂域智能齐鲁七星之一，由龙头主导研发再全行业复用，摊薄了单场景成本。\n## 给项目经理的启示\nAI项目的验收指标要写成业务语言：泊位计划耗时、准确率、能耗成本——而不是模型跑分。星港立项时就把指标锚在调度员的工作时长上，这是它能拿到实战席位的原因。\n"
+          "title": "Coze企业版官宣下架，“画布时代终结”：近半年38款可视化Agent开发产品关停或合并",
+          "summary": "字节Coze（扣子）企业版官宣分阶段下线，腾讯元器同步进入停服周期。行业统计显示，近半年阿里、字节、腾讯等大厂及创业公司旗下共38款拖拽式可视化AI工作流产品关停或合并。同期Dify完成3000万美元融资，走“控制权交给客户、数据不出门”的企业私有化路线，形成鲜明对照。",
+          "source": "腾讯新闻 / 53AI",
+          "time": "2026-11-10",
+          "content": "\n## 一句话解读\n拖拽画布搭建Agent是“大模型能力不足时代的过渡方案”——大厂集体撤出这条赛道，把“又苦又累”的企业级私有化市场让给了Dify们。\n## 发生了什么\n字节Coze（扣子）企业版官宣分阶段下线，腾讯元器同步进入停服周期。行业分析梳理了这一轮收缩的全景：近半年，阿里、字节、腾讯等大厂及多家AI创业公司旗下共38款拖拽式可视化AI工作流类Agent开发产品关停或合并。此前火爆的“画布连线搭Agent”模式，本质是大模型能力不足阶段的过渡方案——当模型足够强，直接对话与自主执行比拖节点更自然。\n## 产品视角：退场不等于能力消失\n从产品品牌看，Coze企业版退场了；但从能力视角看，它们换了一个更核心的容器继续存在——并入字节的主干AI业务。对大厂而言，当一个产品无法独立支撑百亿级想象空间，或影响主干业务推进时，被收编是必然宿命。这给所有从业者一个提醒：在大厂版图里，产品永远服务于战略，随时可能被按下停止键；而在独立闭环里，产品必须服务于客户，解决具体痛点才能掌握存续权。\n## Dify的反向样本\n同期开源AI平台Dify于2026年完成3000万美元融资，选择了一条大厂不愿走的重活路线：\n- 把控制权交给客户：系统装进客户自己的机房，赚取企业为“数据不出门”和“系统可治理”买单的订阅费。\n- 不争海量个人开发者：直接切入对数据安全极度敏感的中大型企业。\n- 做大厂不愿做的重活：本地化部署、私有知识库治理、审计合规，这些脏活累活构成了大厂无法轻易拔除的护城河。\n## 对企业选型的三点判断\n- 依赖公有云画布平台构建关键业务流程有战略风险：平台随时可能停服，选型前要看厂商的企业承诺与私有化出口。\n- 私有化部署类平台（Dify、RAGFlow、FastGPT等）的价值在数据主权与可治理性，与正处合规敏感期的企业Agent需求高度匹配。\n- Agent计价方式正从“软件订阅”转向“任务交付”，评估ROI时应按任务完成率而非坐席数计算。\n## 常见误区\n- 把平台下架等同于技术失败：多数是战略取舍，不代表Agent方向错了。\n- 盲目追大厂产品：认清自己的生态位——企业内系统，数据主权第一。\n"
         },
         {
           "id": "al-003",
-          "title": "2026企业级智能体方案六种形态盘点：先定形态，再挑厂商",
-          "summary": "产业媒体盘点了2026年企业级智能体的六种交付形态：软件订阅、私有化部署、一体机、项目制、开源自建、行业模板。同一套能力，交付方式决定选型答案——用友、金蝶赢在业务语义，实在智能赢在无接口适配，Dify赢在可改造，迈富时一家占三种形态。",
-          "source": "产业新闻网",
-          "time": "2026-11-09",
-          "content": "\n## 为什么“形态”比“排名”重要\n市面上智能体厂商榜单五花八门，但对采购方真正有用的框架是：能力只有一套，交付方式有六种。你的数据敏感度、工程力量、预算模式，决定了该买哪种形态。\n### 六种形态速览\n- 软件订阅：按用量起步，适合先在单部门验证的企业。\n- 私有化部署：设备与数据留在自有环境，适合资料分级严格的单位。\n- 一体机：设备、中台与岗位智能体装进一台机器，适合机房进不去设备也不通外网的单位。\n- 项目制：按业务流程定制交付，适合跨三个以上系统的集团。\n- 开源自建：交框架与组件，适合有工程团队、要求高度定制的组织。\n- 行业模板：按行业预制组件，适合需求集中的行业集团。\n### 九家厂商的位置感\n- 用友：智能体挂在财务、人力、供应链业务对象上，主数据语义沿用客户原有体系。\n- 金蝶：不改既有ERP，叠加执行引擎，苍穹Agent平台2.0支持MCP与A2A协议。\n- 实在智能：补没有接口那一段，界面识别+桌面操作，外置安全断路器与人机确认。\n- Dify：交框架与代码，支持私有化与多模型接入，门槛低，上限取决于团队。\n- 迈富时：软件、私有化、一体机三形态同时交付，中小企业版按用量计费。\n## 三种起点的选型建议\n- 单部门起步：先定形态再挑岗位，中台放到第二步，预算按用量走。\n- 三系统以上集团：先定治理与计量，再看谁能整链交付；报价差异多在实施而非授权。\n- 资料出不了机房：先确认设备能否进场、模型能否本地跑，其余条件后置。\n## 边界提醒\n需求停在单部门、资料在一处的，中台属于配置过度；设备进不了机房又没有独立机柜的，一体机可以直接跳过。选型清单没有标准答案，只有形态匹配。\n"
+          "title": "RAGFlow 1.0发布：从RAG迈向Agent Native Database，检索范式正在换轨",
+          "summary": "RAGFlow 1.0正式发布，提出检索领域正从传统召回算法转向“编排框架+动态上下文供给”，倡导超越传统RAG、迈向Agent Native Database的新范式。传统RAG落地生产的三大痛点——检索精度不足、多文档检索干扰项多、投入产出比低——成为新范式的靶心。",
+          "source": "53AI",
+          "time": "2026-11-10",
+          "content": "\n## 一句话解读\n当Agent成为应用主角，检索的角色也变了：不再是“给问答找资料”，而是“给智能体持续供给决策上下文”——RAGFlow 1.0把这件事讲成了数据库级的命题。\n## 传统RAG的三大落地痛点\nRAGFlow 1.0发布文分析了传统RAG在生产环境的三个硬伤：\n- 检索精度不足：切片、向量化、召回的链路损耗叠加，关键信息容易被切碎或漏召回，答案质量不稳定。\n- 多文档检索干扰项多：企业知识库动辄数百份文档，一次查询召回大量相似但不相关的片段，模型被噪声带偏。\n- 投入产出比低：为提升几个百分点的准确率，需要不断调切片策略、重排模型、清洗数据，工程投入远超收益预期。\n## 新范式：Agent Native Database\n发布文结合学者与行业实践指出，检索领域正在形成从传统召回算法转向“编排框架+动态上下文供给”的行业共识。所谓Agent Native Database，核心变化有三层：\n### 1. 检索服务对象变了\n传统RAG服务“一次问答”；Agent Native Database服务一个持续运行、多轮调用工具的智能体——检索要按Agent的任务上下文动态供给，而不是被动等查询。\n### 2. 检索能力编排化\n检索不再是一条固定管线，而是可编排的能力组合：按任务类型选择向量检索、关键词检索、图谱检索或SQL查询，由框架动态决定用什么、检索多深。\n### 3. 知识结构化升级\n文档从“切片堆”升级为带结构的知识单元（实体、关系、表格语义），配合GraphRAG类技术，让Agent能沿关系链推理而不是在碎片里打捞。\n## 与Dify生态的配合\n对使用Dify等编排平台的团队，RAGFlow这类Agent原生检索层是知识库后端的自然选择：Dify负责编排与Agent治理，RAGFlow负责把企业文档变成可被Agent动态调用的知识服务。两者组合覆盖了“编排+检索”的完整栈。\n## 给落地团队的建议\n- 先诊断再换范式：如果你的RAG问题主要出在文档质量差，换数据库解决不了，先做数据治理。\n- 评估检索组件时按“Agent场景”出题：多跳问题、表格问题、跨文档时间线问题，而不是简单单轮问答。\n- 关注可观测性：检索命中质量要能被度量（召回率、答案引用率），否则永远在盲调。\n"
         }
       ]
     },
@@ -93,19 +85,19 @@
       "articles": [
         {
           "id": "en-001",
-          "title": "Tesla halts Cybertruck production to focus on self-driving Cybercabs",
-          "summary": "BBC报道：特斯拉CEO马斯克表示Cybertruck将在德州工厂停产，公司资源转向自动驾驶Cybercab。本课包含完整英文Transcript、重点词汇与听力练习，适合练习科技与商业类新闻听力。",
-          "source": "BBC News",
-          "time": "2026-11-09",
-          "content": "\n## Full Transcript\nHello and welcome to BBC News. Im standing in for the regular presenter tonight.\nElon Musk has announced that Tesla will halt production of its Cybertruck at its Texas factory, turning the company towards its self-driving Cybercab instead. The electric pickup, with its striking angular design, was once billed as the vehicle of the future. But demand failed to match the hype, and the company has been quietly cutting output for months.\nAnalysts say the move marks a sharp change of direction for the worlds most valuable carmaker. Instead of chasing the mass market with another pickup, Tesla is betting that robotaxis, vehicles that drive themselves and earn money carrying passengers, will drive its next phase of growth. Critics point out that fully autonomous services still face regulatory hurdles in most countries.\nFor workers in Texas, the news is unsettling. Tesla has not said how many jobs will be affected, though it insists staff will be offered roles elsewhere in the company. We will bring you more on this story as it develops.\n### Key Vocabulary\n- halt（v.）— 停止、暂停：The company halted production of the model.\n- production line（n.）— 生产线：The production line will close next month.\n- demand（n.）— 需求：Demand failed to match the hype.\n- hype（n.）— 炒作、大肆宣传：The product never lived up to the hype.\n- autonomous（adj.）— 自动的、自主的：Fully autonomous vehicles still face legal questions.\n- regulatory hurdle（n.）— 监管障碍：Regulatory hurdles delay the rollout.\n- bet on（phr. v.）— 押注于：Tesla is betting on robotaxis.\n- unsettling（adj.）— 令人不安的：The news is unsettling for workers.\n### Listening Questions\n1. Which vehicle is Tesla halting production of, and where was it made?\n2. According to analysts, what is Teslas new direction of growth?\n3. What concern do critics raise about the robotaxi plan?\n### 参考答案\n1. Cybertruck，在德州（Texas）工厂生产。\n2. 转向自动驾驶Cybercab/robotaxi，靠无人驾驶载客盈利。\n3. 完全自动驾驶服务在多数国家仍面临监管障碍。\n"
+          "title": "BBC News: Longest US Government Shutdown Threatens Holiday Supply Chains",
+          "summary": "US Treasury Secretary warns that the 40-day federal government shutdown, the longest in history, has slowed freight across the country and may cause shortages in supply chains and holiday shopping. A BBC-style listening lesson with full transcript, key vocabulary and comprehension questions.",
+          "source": "BBC World Business (adapted)",
+          "time": "2026-11-10",
+          "content": "\n## Full Transcript\nThis is BBC World Business News. I am Sarah Collins with the business headlines.\n\nThe United States is now living through the longest federal government shutdown in its history. Forty days have passed since funding stopped, and the effects are no longer theoretical. The US Treasury Secretary warned on Monday that freight is moving more slowly across the country, and that the economy could face shortages, both in supply chains and during the holiday shopping season. He described the economy as going from bad to worse while the shutdown continues.\n\nThe warning matters because the timing could hardly be worse. November and December are the busiest weeks of the year for American retailers and logistics companies. When goods sit longer at ports and inspection points, every extra day of delay is multiplied across warehouses, delivery vans and shop shelves. Economists say the longer the shutdown lasts, the harder it becomes for businesses to recover before the holidays.\n\nBusiness groups are now calling on both parties in Congress to reach a funding agreement. They argue that uncertainty is the most expensive commodity of all: companies cannot plan shipments, cannot promise delivery dates, and cannot price contracts accurately when nobody knows when the machinery of government will restart.\n\nFor consumers, the first visible signs may appear in stores within weeks: thinner shelves, longer waits for online orders, and higher prices on some goods. Analysts advise shoppers to buy holiday essentials early this year, rather than waiting for the usual December discounts.\n\nThat was the business news. More updates throughout the day on BBC World Service.\n\n### Key Vocabulary\n- shutdown / 停摆：政府因预算未通过而暂停部分运作\n- federal / 联邦的：美国中央政府层面\n- freight / 货运：通过公路、铁路、海运或空运运输的货物\n- shortage / 短缺：供应不足以满足需求\n- supply chain / 供应链：从生产到交付的商品流通网络\n- recession warning / 衰退警告：对经济持续收缩的预警\n- funding agreement / 拨款协议：国会通过的政府预算案\n- uncertainty / 不确定性：结果无法预知的状态\n\n### Listening Questions\n1. How long has the US government shutdown lasted, and why is that significant?\n2. According to the Treasury Secretary, which two areas may face shortages?\n3. Why do business groups describe uncertainty as the most expensive commodity?\n\n（参考答案见收听后自测：1）40天，史上最长；2）供应链环节与节假日消费；3）企业无法计划发货、承诺交期或准确定价。）\n## 逐段精听指南\n- 第一段抓住核心事实：40天、史上最长、财长警告。\n- 第二段注意因果链：停摆→货运放缓→延误在仓储、配送、货架各环节放大。\n- 第三段记录商业团体的诉求：国会达成拨款协议。\n- 第四段留意给消费者的建议：提前购买节日必需品。\n## 听力技巧\n- 数字敏感训练：本篇有40 days、November and December等时间表达，练习抓取时间状语。\n- 长句拆解：When goods sit longer at ports and inspection points, every extra day of delay is multiplied... 注意when从句与主句的逻辑关系。\n- 商务词汇积累：freight、shortage、funding agreement都是财经新闻高频词，建议各造一个例句。\n"
         },
         {
           "id": "en-002",
-          "title": "Meet Fu Shuang and Ping Ping: new giant pandas arrive at Zoo Atlanta",
-          "summary": "BBC报道：两只新大熊猫福双与平平抵达亚特兰大动物园，这是中美六年租借协议的一部分。本课包含完整英文Transcript、重点词汇与听力练习，题材轻松，适合练习动物与文化交流类新闻听力。",
-          "source": "BBC News",
-          "time": "2026-11-09",
-          "content": "\n## Full Transcript\nAnd finally tonight, some slightly softer news.\nZoo Atlanta has welcomed two new residents: giant pandas named Fu Shuang and Ping Ping. The pair arrived on loan from China as part of a six-year agreement, continuing a diplomatic tradition often described as panda diplomacy that stretches back decades.\nKeepers say the animals are settling in well. Their new habitat has been designed to resemble the mountain forests of southwestern China, complete with climbing structures and plenty of fresh bamboo. The zoo expects the pandas to become its biggest attraction in years; staff have already reported a surge in ticket inquiries.\nGiant pandas remain vulnerable in the wild, with habitat loss their greatest threat. Conservationists hope that international breeding programmes, combined with protected reserves in China, will keep pulling the species back from the brink. For now, though, the people of Atlanta are simply delighted to meet their new neighbours.\n### Key Vocabulary\n- on loan（phrase）— 租借、借展：The pandas arrived on loan from China.\n- resident（n.）— 居民；（此处）园内住户：The zoo has welcomed two new residents.\n- habitat（n.）— 栖息地：Habitat loss is their greatest threat.\n- bamboo（n.）— 竹子：Keepers provide plenty of fresh bamboo.\n- surge（n.）— 激增：A surge in ticket inquiries.\n- vulnerable（adj.）— 易危的：Giant pandas remain vulnerable in the wild.\n- conservationist（n.）— 自然保护主义者：Conservationists hope breeding programmes will help.\n- brink（n.）— 边缘（常指危险边缘）：pull the species back from the brink.\n### Listening Questions\n1. What are the names of the two new pandas, and how long is the loan agreement?\n2. How has the zoo designed the pandas new habitat?\n3. According to the report, what is the greatest threat to giant pandas in the wild?\n### 参考答案\n1. 福双（Fu Shuang）与平平（Ping Ping），租借协议为期六年。\n2. 模仿中国西南山地森林，配有攀爬设施和大量新鲜竹子。\n3. 野外栖息地丧失（habitat loss）。\n"
+          "title": "BBC News: China Lifts Tariffs for African Nations in Zero-Tariff Trade Move",
+          "summary": "China has lifted tariffs on imports from African countries, with one exception, in a move designed to boost trade and investment across the continent. A BBC-style listening lesson covering trade policy, tariff vocabulary and the economics behind zero-tariff access.",
+          "source": "BBC World Business (adapted)",
+          "time": "2026-11-10",
+          "content": "\n## Full Transcript\nHello and welcome to BBC World Business Report. I am David Miller in London.\n\nChina has formally lifted tariffs on goods imported from African countries, with just one exception among the continents fifty-plus nations. The policy, announced this week, means that virtually all products from Africa can now enter the Chinese market without import duties, a significant step in what Beijing calls a win-win trade relationship.\n\nThe exemption list is deliberately broad. It covers agricultural products, minerals, textiles and processed foods, categories where African producers have long sought better access to large consumer markets. Chinese officials argue that tariff-free access will help African economies move up the value chain, exporting not just raw materials but finished and semi-finished goods.\n\nEconomists see two sides to the story. On one hand, African exporters gain immediate price competitiveness in one of the worlds largest markets. On the other hand, questions remain about whether African industries can meet Chinese quality standards, volumes and delivery schedules. Infrastructure gaps, from ports to cold-chain logistics, remain a practical barrier that tariffs alone cannot solve.\n\nAfrican trade officials have welcomed the move but stressed that follow-through matters. They point out that previous tariff schemes sometimes went underused because producers were unaware of them or unable to complete the required paperwork. This time, both sides say they will invest in information campaigns and simplified customs procedures.\n\nAnalysts will be watching trade data over the coming year. If African exports to China rise significantly beyond raw commodities, it could mark a genuine shift in the continents trade pattern. If not, the zero-tariff policy may be remembered as a generous gesture that lacked the plumbing to deliver.\n\nFrom all of us on the business desk, thank you for listening.\n\n### Key Vocabulary\n- tariff / 关税：对进口商品征收的税\n- lift tariffs / 取消关税：不再征收进口税\n- exemption / 豁免：被排除在规则之外\n- value chain / 价值链：产品从原料到成品的增值过程\n- price competitiveness / 价格竞争力\n- cold-chain logistics / 冷链物流\n- customs procedures / 海关手续\n- trade pattern / 贸易格局\n\n### Listening Questions\n1. How many African countries are covered by the tariff removal, and what is the exception structure?\n2. Name three product categories included in the exemption list.\n3. According to economists, what practical barriers could prevent African producers from benefiting?\n\n（参考答案：1）覆盖50多个国家中除一个外的所有国家；2）农产品、矿产、纺织品、加工食品任答三个；3）质量标准、产能规模、交付周期、基础设施与冷链短板。）\n## 逐段精听指南\n- 第一段抓政策主体与覆盖范围：除一个国家外全部取消关税。\n- 第二段记忆品类清单，练习边听边罗列。\n- 第三段关注经济学家的两面性分析：机遇与能力差距并存。\n- 第四段是政策落地视角：过去的关税计划因文书与知晓度问题未被充分利用。\n## 听力技巧\n- 政策新闻高频句式：lift tariffs on...、gain access to...、follow-through matters，建议摘抄背诵。\n- 数字与例外结构：with just one exception among...这类表达常出现在贸易新闻中。\n- 观点对比训练：On one hand... On the other hand... 是听力中标记正反观点的路标词。\n"
         }
       ]
     },
@@ -116,19 +108,19 @@
       "articles": [
         {
           "id": "fi-001",
-          "title": "知识点：行为金融学四大陷阱——你亏钱不是因为笨，是因为人脑出厂设置",
-          "summary": "从行为金融学视角拆解散户最常见的四个心理陷阱：锚定效应、损失厌恶、过度自信、羊群效应。每个陷阱配一个实战场景和破解方法，附定投纪律与长期主义的操作建议。面向0基础理财小白，通俗讲解。",
+          "title": "知识点·债券基础：国债、企业债、可转债，以及利率与债券价格为什么跷跷板",
+          "summary": "零基础理解债券：为什么说债券是“借条”而不是股票；国债、企业债、可转债的风险收益差异；最核心的一条规律——市场利率上升，债券价格下跌。附可转债“下有保底、上不封顶”的真实数字示例与避坑清单。",
           "source": "知识点",
           "time": "知识点",
-          "content": "\n## 为什么要学行为金融学\n绝大多数散户亏钱，不是因为不懂技术，而是因为人脑的出厂设置就是为原始社会设计的：怕损失、爱跟风、过度相信自己。行为金融学研究的正是这些系统性心理偏差。认识它们，是理财入门最划算的一课——因为这是唯一不需要花一分钱就能提升收益的知识。\n## 陷阱一：锚定效应\n- 是什么：人会死死抓住第一个看到的数字当参照。最典型的场景是套牢：股票从100块跌到60块，你天天盯着100块的成本价，觉得不回本就不卖。\n- 问题在哪：市场不认识你的成本价。60块的唯一问题是——现在这个价格，这资产还值不值得持有？跟你的买入价毫无关系。\n- 破解方法：每次决策前问自己一句话：如果今天空仓，我会在这个价格买入它吗？答案是不会，就该考虑止损。\n## 陷阱二：损失厌恶\n- 是什么：亏100块的痛苦，大约是赚100块快乐的2到2.5倍。这导致两种典型错误：赚小钱就跑（盈利单拿不住），亏大钱死扛（亏损单不止损）。\n- 一组扎心的数据：长期看，频繁交易的个人投资者收益普遍跑输躺平不动的人，因为损失厌恶让他们高抛低吸——在情绪上这很舒服，在收益上正好做反。\n- 破解方法：定投+长期持有，把卖出决策交给事先写好的规则（如目标收益率、再平衡），而不是交给当天的情绪。\n## 陷阱三：过度自信\n- 是什么：牛市里赚了钱的人，普遍把这归因于自己眼光好，而不是运气好。统计上，男性投资者交易频率显著高于女性，收益反而更低——交易越多，摩擦成本越高，犯错机会越多。\n- 破解方法：记账复盘。把每次操作的决策理由写下来，一年后回看，你会惊讶于自己当时有多草率。仓位上，永远留一笔让你睡得着觉的钱。\n## 陷阱四：羊群效应\n- 是什么：别人买什么我买什么。2021年抱团基金、追高热门赛道的基民，大多数在高位入场、低位割肉。新闻热度与投资收益通常成反比：当一个投资话题人尽皆知时，超额收益往往已被吃光。\n- 破解方法：把信息来源限定在少数高质量渠道；制定资产配置方案后，用纪律执行，市场噪音一律降权处理。\n## 给小白的行动清单\n- 开仓前写买入理由，只有三行也要写。\n- 设置简单的机械规则：定投日不关账户、目标止盈线、单品种仓位上限（比如不超过总资产20%）。\n- 每季度复盘一次，重点不是赚了多少，而是哪些决策是情绪做的。\n## 常见误区\n误区一：我以为我冷静就不会中招——行为偏差对专业人士同样有效，只是程度轻。误区二：定投是万能药——定投解决的是入场节奏，不解决选错标的的问题；标的本身要选宽基指数或长期逻辑清晰的资产。\n"
+          "content": "\n## 一、债券是什么：一张会付利息的借条\n买股票，你是公司的股东，公司赚钱你分享，公司亏钱你陪跌；买债券，你是债主，借钱给政府或企业，对方按约定付利息、到期还本金。所以债券的核心特征是：收益事先基本确定（除非违约），风险主要来自两点——发行人还不起钱（信用风险），以及市场利率变化导致债券市价波动（利率风险）。\n## 二、三类常见债券对比\n### 国债\n- 发行主体：国家财政，信用风险几乎为零。\n- 收益水平：目前10年期国债收益率约在2%上下浮动，是所有利率的“锚”。\n- 适合人群：追求安全、能接受收益不高的稳健型资金。\n- 购买渠道：银行柜台、证券账户，也可通过国债ETF、债券基金间接持有。\n### 企业债/公司债\n- 发行主体：企业，信用风险取决于企业资质，通常有AAA、AA+等信用评级。\n- 收益水平：比同期限国债高1-3个百分点，补偿信用风险。\n- 避坑要点：低评级、高收益的债往往伴随违约风险，“收益高2个点，本金可能没了”的案例并不罕见。普通个人建议不直接买个券，改走债券基金分散。\n### 可转债\n- 本质：一张债券+一份转股权。到期可以拿回本金和利息，也可以在约定价格把债换成股票。\n- 特点：下有保底（债性）、上不封顶（股性）。正股大涨时转债跟着涨，正股暴跌时它还有债底托着。\n- 示例：面值100元的可转债，约定转股价10元。若正股涨到15元，转股价值变成150元，转债价格往往接近130元以上；若正股跌到6元，转股价值只有60元，但转债价格通常仍在100元附近，因为到期还本付息的价值托着它。\n## 三、核心规律：利率与债券价格的跷跷板\n债券价格与市场利率反向变动。举个例子：你手里一张票面利率3%的债券，面值100元。如果市场利率升到4%，新发的债券付4%，谁还要你这张3%的旧债？只能降价卖，价格跌到97元左右，让买家实际收益接近4%。反过来利率降到2%，你的3%旧债成了香饽饽，价格涨到103元以上。\n这就是为什么：\n- 降息周期，债券基金普遍赚钱；加息周期，债券基金净值会回撤。\n- 期限越长的债券，对利率越敏感：30年期国债的波动远大于1年期。\n## 四、零基础实操建议\n- 第一步用债券基金代替买券：纯债基金已分散持有一篮子债券，几元即可起投，避开个券违约风险。\n- 区分纯债与固收+：纯债基金只投债券；固收+会搭20%以内的股票或转债，波动更大，别把两者当成一类。\n- 用持有期匹配用途：1年内要用的钱买短债基金，2-3年不动的钱可配中长期纯债。\n## 五、常见误区\n- 以为“债券=稳赚”：债券基金在加息年份也可能亏1-3%，只是回撤远小于股票基金。\n- 只看票面利率，忽视信用评级与到期期限。\n- 把可转债当股票炒：转债有强赎条款，正股大涨后公司可能强制赎回，追高的投资者会瞬间损失溢价。\n"
         },
         {
           "id": "fi-002",
-          "title": "知识点：退休规划与三支柱养老金——社保打底、年金补充、个人养老金加餐",
-          "summary": "系统讲解中国养老金三支柱体系：基本养老保险怎么算、企业年金/职业年金是什么、个人养老金账户每年1.2万额度怎么用。配一个30岁开始 vs 45岁开始的储蓄对比测算，说明养老规划越早越省力的数学原理。面向0基础小白。",
+          "title": "知识点·保险配置基础：百万医疗、重疾、意外、寿险的优先级与避坑清单",
+          "summary": "保险不是投资，是给家庭财务装“防漏阀”。零基础配置顺序：先百万医疗（杠杆最高，一年几百元保数百万），再意外险，再重疾险，家庭支柱最后配定期寿险。附每一类险种的真实数字、典型误区和“返还型”“捆绑型”产品避坑指南。",
           "source": "知识点",
           "time": "知识点",
-          "content": "\n## 先建立一个认知：养老要靠“组合”，不能只靠社保\n很多人以为退休后靠养老金就够了。现实是：社保养老金的目标是保基本，替代率（退休金÷退休前工资）一般在40%上下。也就是说，月薪2万的人退休后社保大约发8000元，生活品质会明显下降。所以全球通行做法是三大支柱搭配：国家保底、单位补充、自己加餐。\n## 第一支柱：基本养老保险\n- 组成：单位缴16%进统筹账户，个人缴8%进个人账户（以缴费工资为基数）。\n- 领取条件：累计缴满15年且达到法定退休年龄。\n- 特点：活得越久越划算，因为它终身领取且逐年调整；它是三支柱里唯一“保底”的部分，一定要连续缴纳，断缴优先补上。\n## 第二支柱：企业年金与职业年金\n- 是什么：单位自愿建立的补充养老保险，单位缴费+个人缴费共同进入个人账户，由专业机构投资运作。\n- 现实：目前主要覆盖国企、机关事业单位和部分大企业，覆盖率还不高。找工作时可以把“有没有年金”当作隐性薪酬的一部分来比较。\n- 优点：单位出大头、税收递延、强制长期投资，属于白捡的复利。\n## 第三支柱：个人养老金账户\n- 额度：每人每年最多缴1.2万元，缴存时可抵扣个人所得税。\n- 账户里能买什么：储蓄存款、理财产品、公募基金（含养老目标基金）、商业养老保险四类，风险从低到高自选。\n- 锁定：一般要到退休才能领取，流动性差是代价，税收优惠+长期复利是回报。\n- 谁最划算：个税税率越高（10%及以上档）越划算；收入不高、税率3%以下的人群，税收优惠有限，可优先考虑流动资金安排。\n## 算一笔账：早10年开始差多少\n假设目标是在60岁攒出100万养老补充金，年化收益按5%估算：\n- 30岁开始：每年存约1.05万，30年，总投入约31.5万。\n- 45岁开始：每年存约3.5万，15年，总投入约52.5万。\n结论：晚开始15年，每年要多存2.3倍，总投入多出21万。这就是复利对“时间”的定价——养老储蓄这件事，开始得早比存得多更重要。\n## 实操三步走\n- 第一步：查清自己的社保缴纳状态，确保连续。\n- 第二步：问HR单位有没有年金，有的话尽量顶格参加。\n- 第三步：如果个税适用10%以上税率，开立个人养老金账户，每年1.2万额度优先配置养老目标基金或稳健理财产品。\n## 常见误区\n误区一：养老金账户收益肯定跑不赢股市——养老产品的定位是“稳”，它对应的是你无法承受波动的养老钱。误区二：太早规划没意义——恰恰相反，时间是最便宜的杠杆，越早开始每年要存的金额越少。误区三：只存不配——账户里的钱也需要按年龄配比（年轻人可以偏股，临近退休逐步转稳）。\n"
+          "content": "\n## 一、保险的定位：先堵漏，再谈理财\n理财四笔钱框架里，“保命钱”的作用是用小额确定性支出，堵住大额不确定性支出。一场重病自费几十万、一次意外失去收入能力，都可能击穿家庭多年积蓄。所以保险配置的基本原则是：先保障后储蓄，先大人后小孩，先支柱后其他。\n## 二、四大险种的优先级与关键数字\n### 第一优先：百万医疗险\n- 作用：住院医疗费用报销，扣除免赔额（通常1万元）后报销，保额可达数百万。\n- 成本：30岁人群一年约300-600元，杠杆率最高，是所有人第一张该买的保单。\n- 注意事项：优先选保证续保期长的产品（如保证续保20年），健康告知务必如实填写，否则理赔时可能被拒。\n### 第二优先：意外险\n- 作用：意外身故、伤残赔付+意外医疗报销。\n- 成本：一年期综合意外险，100万保额约150-300元。\n- 避坑：不要买长期“返还型意外险”，一年期产品便宜且灵活；务必确认含伤残责任（只有身故责任的航空意外险式产品价值低）。\n### 第三优先：重疾险\n- 作用：确诊约定大病即赔付一笔钱（如50万），用于弥补收入中断、康复费用——这是医疗险赔不了的“收入损失补偿”。\n- 成本：30岁、50万保额、保至70岁、30年缴，年保费约3000-5000元；保终身则翻倍。\n- 避坑：预算有限选“定期消费型”，不要选“返还型”或“捆绑寿险”的重疾，后者保费贵一倍以上，本质是强制储蓄。\n### 第四优先：定期寿险\n- 作用：家庭支柱身故/全残，给家人留一笔钱还房贷、养孩子。只保一段年限（如到60岁）。\n- 成本：30岁、100万保额、保30年，年保费约600-1000元，便宜得惊人。\n- 配置逻辑：有房贷、有孩子的一方必须有；单身无负债可暂缓。\n## 三、一个普通家庭的标准配置示例\n以30岁家庭支柱为例：百万医疗600元+意外险300元+重疾（50万定期）4000元+定期寿险（100万）800元，年保费约5700元，占年收入10万的比例不到6%，即可覆盖大病、意外、身故三大风险敞口。预算紧张时，先保前三样，重疾保额可先降到30万，收入提升后再加。\n## 四、常见误区与避坑\n- 把保险当理财：分红险、年金险的收益率通常只有1.5-2.5%，且前几年退保损失惨重。保障需求没配齐前，不碰储蓄型产品。\n- 只给孩子买、大人裸奔：大人才是家庭现金流来源，孩子生病花钱，大人倒下断的是收入。\n- 健康告知随意填：理赔纠纷八成出在告知不实。做过体检有异常的项目，如实告知，宁可加费承保。\n- 追求“一张保单全保”：捆绑型产品看似省事，实际每项责任单价都贵。正确做法是按险种分开买，各选性价比最优。\n- 忽视免责条款与等待期：医疗险通常有30天等待期，等待期内生病不赔；投保后别急着在等待期体检。\n"
         }
       ]
     },
@@ -139,19 +131,19 @@
       "articles": [
         {
           "id": "ti-001",
-          "title": "SK集团AI Inference Factory亮相进博会：按推理阶段混合调度多种AI芯片",
-          "summary": "第九届进博会上，SK集团展出AI数据中心创新方案AI Inference Factory，整合AI计算资源管理、推理软件与浸没式液冷，根据AI推理不同阶段的特性优化配置多种AI芯片；英特尔、三星、美光、霍尼韦尔同期展示算力、存储与液冷最新成果，海外科技企业加速对接中国应用场景。",
-          "source": "中国经济网",
-          "time": "2026-11-09",
-          "content": "\n## 展会观察\n11月6日的进博会上，算力基础设施成为海外科技企业的展示主线：绿色算力舱、企业级词元一体机、浸没式液冷——AI落地的“水电煤”正在被系统性重构。\n## AI Inference Factory为什么值得关注\nSK集团的这套方案瞄准的是AI推理（Inference）成本这一行业最痛的点：\n- 异构芯片混排：根据AI推理不同阶段的特性（Prefill偏算力、Decode偏带宽），优化配置多种AI芯片，而不是一刀切用同一颗GPU。\n- 软硬一体：整合计算资源管理软件与推理软件，任务编排层自动把请求分配到最合适的芯片。\n- 浸没式液冷：高密度异构部署带来散热挑战，浸没式液冷成为支撑方案。\n- 商业化进行中：SK中国透露方案正在推进商业化落地。\n## 行业趋势：推理经济学成为主战场\n过去两年比拼的是训练算力，2026年的竞争焦点明显转向推理：\n- 推理成本直接决定AI应用的毛利率，每百万Token的价格战已从模型层烧到基础设施层。\n- 混合芯片策略（GPU+NPU+ASIC混部）可将推理单位成本显著压低，这要求资源调度软件成为核心竞争力。\n- 液冷从可选项变为高密度机房的标配，散热设计直接影响芯片选型上限。\n## 对企业IT的启示\n- 选型云服务时问一句：推理任务跑在什么芯片组合上？这比看GPU型号更能预测成本。\n- 自建算力的团队应把调度软件能力当作与硬件同级的投资项。\n- 关注词元（Token）计价模式：企业级词元一体机这类产品形态，说明供应商正在把推理包装成标准化商品。\n"
+          "title": "AMD三季度营收133.77亿美元增45%：数据中心收入翻倍，Q4环比再涨50%",
+          "summary": "AMD发布2026年第三季度财报：营收133.77亿美元、同比增长45%，数据中心收入同比增97%，EPYC与MI450系列GPU双轮驱动。苏姿丰预计Q4数据中心业务环比增长约50%，2027年服务器收入有望翻倍，数据中心占总营收比例将超80%。TrendForce同期指出，AI Agent负载正推动服务器CPU与GPU配比从1:8向1:1演进。",
+          "source": "21世纪经济报道",
+          "time": "2026-11-10",
+          "content": "\n## 一句话解读\nAI算力需求已经从“GPU独舞”变成“CPU+GPU双引擎”：智能体跑在CPU上，GPU只管加速——AMD的数据中心收入翻倍，是这个结构性变化的最新证据。\n## 财报核心数字\n- 营收133.77亿美元，同比增长45%，高于市场预期，盘后股价一度上涨近8%。\n- 数据中心收入同比增长97%，成为营收主要驱动力：EPYC负责运行智能体、为GPU持续供给数据并支撑周边通用计算；MI450系列GPU承担AI训练与推理。\n- 苏姿丰披露：EPYC在云和企业市场销售额均同比增长一倍以上；Instinct MI450与Helios机架级系统三季度量产，Anthropic、Meta、微软、OpenAI、甲骨文等客户的首批Helios机柜已投入运行。\n- 指引：Q4数据中心业务环比增长约50%，2027年服务器收入有望同比翻倍，数据中心占总营收比例将超80%。\n## 结构性变化：CPU与GPU配比大迁移\nTrendForce指出，AI Agent和推理负载正推动服务器CPU与GPU配比从1:8向1:2甚至1:1演进，2026年服务器CPU出货量预计增长31%。逻辑在于：\n- 智能体的编排、检索、工具调用、业务逻辑跑在CPU上，只有模型推理才需要GPU。\n- 企业级Agent数量爆炸式增长，每个会话都是CPU负载，CPU需求随Agent数量线性上升。\n- 推理占比提升后，GPU与CPU的功能边界重新划分，服务器架构设计也随之改变。\n## 阴影面：客户端与游戏业务下滑\nAMD客户端与游戏业务营收同比下降8%：游戏业务收入从去年同期的13亿美元骤降至7.73亿美元。苏姿丰解释，内存等核心零部件涨价推高了整机价格，价格敏感的消费者放缓了PC购买。这提醒我们：AI算力的狂欢正在虹吸上游内存与存储产能，消费电子成了涨价压力的承接方。\n## 对企业IT规划的启示\n- 服务器采购预算要重新分配：CPU数量不再是按虚拟机数量估算，而是要叠加Agent并发数。\n- 内存价格上行周期已至，扩容项目宜早不宜迟，锁价窗口正在关闭。\n- 评估推理成本时，CPU型推理（小模型、量化模型）对小批量Agent场景可能是更省的选择。\n"
         },
         {
           "id": "ti-002",
-          "title": "液冷渗透率两年翻倍以上：中国液冷服务器2027年将过半，温控进入系统级竞争",
-          "summary": "中商产业研究院预测中国液冷服务器渗透率将从2025年的20%升至2026年的37%、2027年突破50%。特灵科技推出DCDA系列冷却液分配单元（CDU）并收购LiquidStack；江西高校团队研发立体多阶分流液冷技术，主流路径缩短约84mm、泵功耗下降约16W。100兆瓦级数据中心交付周期已从18个月压缩到12个月。",
-          "source": "新华网 / 经济参考网",
-          "time": "2026-11-09",
-          "content": "\n## 数据先看：液冷正在越过临界点\n中商产业研究院的预测给出了清晰的曲线：中国液冷服务器渗透率2025年20%，2026年37%，2027年突破50%。两年多一点的时间翻倍以上——液冷已经从高密智算中心的特殊方案，变成新建数据中心的主流选择。\n## 三个信号\n### 信号一：温控厂商集体转向系统级方案\n特灵科技中国区总裁杨迎芳的判断是：客户要的不再只是高效设备，而是能适应不同算力密度、兼顾性能能效可靠性的系统级制冷方案。该公司今年的动作很密集：推出DCDA系列CDU（模块化平台、支持集群控制），先后收购液冷技术公司LiquidStack与模块化方案商Stellar Energy，并与芯片厂商联合优化AI工厂热管理。整装式集成冷水机房设备预制化率达85%，大型项目全年可节电超千万度、减排近万吨。\n### 信号二：交付周期成了竞争力\n中国标准100兆瓦超大规模数据中心的交付周期，已从云计算时代约18个月压缩到AI时代约12个月。预制化、模块化是压缩周期的核心手段——算力需求增长太快，土建式慢工细活已经跟不上。\n### 信号三：国产液冷技术下沉到高校实验室\n江西工业工程职业技术学院芯恒液冷团队研发的立体多阶分流技术，针对传统单层流道入口阻力集中、中段流动死区、出口流量偏差大的痛点，采用一级分流+二级导流+立体导流+末端均衡四级结构：主流路径缩短约84mm、泵功耗下降约16W、压力波动降低约0.7kPa。目前处于实验室样件阶段，后续将验证更大热流密度工况与主流算力模组适配。\n## 对基建选型者的三条建议\n- 新建机房直接按高密液冷预留：管路、承重、供电按每机架更高功率设计，避免二次改造。\n- CDU的集群控制与冗余能力要纳入招标硬指标，它是液冷系统的“心脏”。\n- 混合场景（存量风冷+增量液冷）优先选风液并进的方案商，减少运维两套体系的割裂。\n"
+          "title": "英特尔把客户端产能转向数据中心芯片：服务器短缺将持续到2027年下半年",
+          "summary": "面对PC市场收缩与AI基础设施需求爆发，英特尔正加快亚利桑那Fab 52的Intel 18A生产，并将产能向服务器芯片倾斜。先进封装基板供应不足是瓶颈，预计2027年下半年基板产能增加约40%。企业用户直观感受：服务器芯片短缺在2027年上半年仍将突出。",
+          "source": "FinSages / Tom Hardware",
+          "time": "2026-11-10",
+          "content": "\n## 一句话解读\n产能是跟着需求走的：英特尔把晶圆厂从PC芯片切向服务器芯片，等于官方盖章确认——未来两年，AI数据中心需求压倒一切，服务器芯片会继续缺。\n## 产能调整的具体动作\n- 亚利桑那Fab 52工厂加快Intel 18A工艺量产，邻近的Fab 62正在加速安装设备，将成为第二个用于18A、18A-P及衍生工艺的大批量制造工厂。\n- 瓶颈不在晶圆而在封装：先进封装材料（多芯片处理器所用基板）供应不足，英特尔正与供应商合作提升产量，预计2027年下半年基板产能增加约40%。\n- 资本开支：英特尔2026年资本支出预计约200亿美元，2027年还将大幅增加。\n## 需求侧的逻辑\n消费级PC市场收缩，而AI基础设施运营商部署更多以处理器为核心的智能体与推理工作负载，需求被推向服务器一侧。英特尔预计数据中心处理器需求在2027至2028年仍将保持强劲。需要区分的是：产能向服务器倾斜不等于放弃PC，英特尔仍希望用未来的Core Ultra 400系列Nova Lake在客户端夺回份额，Fab 62等新产能在两端的具体分配仍待观察。\n## 行业横向印证\n同期几条新闻互相印证了“算力挤压”的行业趋势：\n- AMD财报显示数据中心收入增97%，EPYC供不应求，与英特尔的产能倾斜方向一致。\n- OpenAI据报计划向谷歌采购AI芯片寻找更便宜替代，Arm自研AGI CPU已锁定约10亿美元需求但供应链卡住出货。\n- 富士康AI服务器业务占其二季度营收51%，鸿海宣称全球AI服务器份额约40%、未来数年冲50%。\n## 对企业采购的建议\n- 2027年上半年前需要扩容的项目，提前锁定服务器货期，现货市场溢价只会更高。\n- 与其追新平台，不如评估现有资源的调度优化：容器化整合、负载削峰，用软件手段延长硬件生命周期。\n- 混合策略：常态化负载用自有/托管服务器，峰值推理需求用云端弹性算力，避免为峰值买断产能。\n## 常见误区\n- 以为缺的只是GPU：服务器CPU、内存、先进封装基板都在排队，整柜交付周期取决于最短板。\n- 等价格回落再买：算力需求曲线与产能爬坡赛跑，多数机构等来的是更长的交期而非更低的报价。\n"
         }
       ]
     },
@@ -162,19 +154,19 @@
       "articles": [
         {
           "id": "bi-001",
-          "title": "华鼎冷链入选交通强国专项试点：垂直大模型让车辆匹配从1小时到秒级",
-          "summary": "交通运输部发布第二批交通物流降本提质增效专项试点经验，华鼎冷链科技凭供应链数智化升级入选。其SaaS调度平台整合84万平方米仓储、11万余台冷藏车，覆盖40余万家终端门店；自研华鼎雪豹冷链大模型实现运输全流程智能决策，车辆匹配从1小时压到秒级，单日承运能力从100吨提升到1000吨，智能排线节约单车里程15%。",
-          "source": "中国发展网",
-          "time": "2026-11-09",
-          "content": "\n## 事件\n11月3日，全国交通物流降本提质增效现场推进会在广州召开，交通运输部正式发布第二批专项试点经验做法。河南华鼎冷链科技作为冷链物流领域代表入选，其经验将向全国推广。\n## 案例拆解：三级仓配网络+垂直大模型\n### 底座：三级智慧仓配网络\n- 结构：区域枢纽仓、城市中心仓、社区前置仓三级节点，开通14.6万条干支线运输线路，覆盖全国绝大多数县乡，核心城市36小时冷链直达。\n- 资源整合：SaaS智能调度平台累计整合84万平方米仓储、11万余台冷藏车，对接上游2000家生产企业、终端门店40余万家，实现仓、车、货全要素统一调度。\n- 品控：全链路温湿度实时监控与异常自动预警，全年保障约1.1亿件冷链食品不断链。\n### 增量：垂直领域大模型\n华鼎雪豹数智大模型针对冷冻食材的温区、路网、订单结构、车辆状态等行业特征深度训练：\n- 车辆匹配从传统模式1小时压缩到秒级响应。\n- 单日最大承运能力从100吨跃升至1000吨，十倍扩张不靠加人。\n- 智能排线节约单车行驶里程15%，直接转化为燃油成本与碳排下降。\n## 可迁移的三条经验\n- 垂直大模型的价值在于用行业专属特征训练调度策略，通用模型做不到秒级匹配这类精细决策。\n- 平台先整合资源（仓、车、货），再上智能调度——没有数据底座的AI是空中楼阁，这与本周制造业案例的结论完全一致。\n- 政策通道价值大：入选国家级试点意味着经验推广、融资与订单的多重红利，企业应主动对标专项试点申报方向。\n"
+          "title": "东方电机数智赋能样本：虚拟装配把预装检验从30天压到3-5天，链式转型串联2000多家供应链企业",
+          "summary": "新华社“工厂探新”栏目走进东方电机：机器人焊接使55吨转子支架生产效率提高300%、一次合格率99%；虚拟装配让导水机构预装检验从25-30天压缩至3-5天；作为链主企业，其数字化供应链已串联2000多家企业，带动本地民企生产效率提升30%以上。",
+          "source": "新华社",
+          "time": "2026-11-10",
+          "content": "\n## 一句话解读\n重型装备制造的数字化，比的不是炫技，而是把“最慢的环节”逐个击穿：焊接慢就上机器人，预装慢就上虚拟装配，链条慢就把能力开放给供应商。\n## 企业背景\n东方电机是东方电气集团旗下、有着近70年历史的重型装备制造企业，主营大型发电装备。近期交付的500兆瓦冲击式水电机组核心部件“东方蓝莲”首台转轮，外径约6.2米、重约80吨，复杂水斗曲面由机器人在强约束空间里焊接、铲磨完成——重型制造的数智化，先从最重的活下手。\n## 三个可复用的改造样本\n### 样本一：机器人焊接——让重活变轻\n55吨的转子支架过去完全靠人工焊接，至少需要7名工人连续干15天；如今一人同时操作4套焊接机器人，完成扫描、轨迹规划、智能焊接、自动清理，生产效率提高300%，产品一次合格率达99%。技术关键是用“视觉识别+算法”实时计算并补偿焊接轨迹——多层多道焊的温度变形会被实时修正。\n### 样本二：虚拟装配——用数据代替实物\n导水机构传统方式需要成千上万个零件组装检验、再拆开运输；东方电机用三维测量精准测定零件几何尺寸，在计算机上做整体数据装配检验。实物预装检验从25-30天压缩至3-5天；球阀装配周期由两个月缩至一个月，年产接近40台，是过去的3到4倍。\n### 样本三：链式转型——把数字化输出给供应链\n东方电机为本地民企建安机械定制开发轻量化制造运营系统，打造高柔性全自动生产线、立体仓库，其生产效率提升30%以上、质量稳定性达99%以上。一条横向产品交付线贯穿营销、研发、制造、安装、服务全链条，依托数字化供应链建设串联2000多家供应链企业。\n## 整体成效与服务化转型\n通过数智化改造，东方电机装备研发研制周期缩短40%、制造效率提升30%，通过国家智能制造能力成熟度四级认证，获评首批卓越级智能工厂。更进一步：依托设备端海量数据搭建智能诊断平台，海外机组无需工程师奔赴现场，数字平台即可完成状态巡检与故障预判——企业从单一卖硬件转向卖“装备+技术+服务+整体解决方案”，打开了产业链后端并反哺前端研发设计。\n## 对装备制造企业的启示\n- 老设备不用换：二三十年机龄的设备通过加装传感器、刀具监控、数据采集，也能实现状态与工艺参数实时感知。\n- 找“最慢环节”做突破口，而不是全面铺开：焊接、预装、检验，哪个慢改哪个，见效最快。\n- 链主企业的数字化责任：带动供应链小企业轻量化上系统，整个链条的交付能力才真正提升。\n"
         },
         {
           "id": "bi-002",
-          "title": "苍南宜山样本：一件快递1.4元，平台经济如何长在产业链上",
-          "summary": "浙江苍南宜山镇作为“中国内衣名镇”，集聚近3000家针织经营主体、年产值70余亿元，全国每四件针织内衣就有一件产自这里。云织链浙南数字云仓把快递单价从近3元压到1.4元、成本降近一半，投用以来快递单量已超1亿单；配套质量分级标准、直播监管平台与金融授信，形成产业带数字化转型的完整样本。",
-          "source": "苍南发布 / 潮新闻",
-          "time": "2026-11-09",
-          "content": "\n## 为什么值得研究\n产业带转型报道很多，但苍南样本的完整度罕见：物流降本、标准建设、智造升级、数字监管、金融配套五个环节全部打通。它回答了一个关键问题——平台经济对传统块状产业带的赋能，到底怎么做才算到位。\n## 环节一：云仓筑底，物流成本腰斩\n- 痛点：针织内衣单件利润薄、发货频次高，企业自发货快递费近3元/件，旺季还要雇五六个人打包。\n- 方案：云织链浙南数字云仓（约8万平方米），企业入仓即服务——库存管理、分拣、发货、退货全托管。申通、邮政等快递直接入驻，邮政共配中心每小时处理3万件，日均20万件。\n- 结果：快递单价1.4元/件、成本降近一半，2025年4月投用以来快递单量超1亿单。\n## 环节二：标准与智造抬高上限\n- 制定《苍南针织内衣质量分级团体标准》，推行A级认证与网售质量追溯赋码，破解货不对板。\n- 车间端：100余台自动拉布机、自动裁床、吊挂系统进场，镇内国家高新技术企业达16家。\n- 检测认证等质量基础设施一站式服务平台建到企业门口，已服务200余家企业。\n## 环节三：直播+监管+金融闭环\n- 数字化改造政策对投入30万元以上的企业按15%补助；行业协会联合银行向纺织业投放贷款超5500万元、结余授信超1亿元。\n- 直播电商监管平台归集主体经营数据，构建信用分类管理：A级降抽查频次、CD级重点盯防。\n- 网货选品中心常态化办选品会，镜头前即时上新、镜头后快速履约。\n## 方法论提炼\n苍南的逻辑是不另起炉灶，而是沿产业链关键节点逐个嵌入服务：物流节点做云仓，质量节点做标准与检测，销售节点做直播与选品，资金节点做授信，监管跟着上链。对其他产业带（五金、纺织、小家电等）这是最可复制的模板——平台不是流量生意，是产业链服务生意。\n"
+          "title": "平湖箱包产业拿下数据要素大赛一等奖：“数据胶囊”破解不敢共享、不愿共享、不能共享",
+          "summary": "平湖市《箱包产业供应链数据要素安全流通及协同处理》项目获2026数据要素赋能新型工业化大赛一等奖。项目以“数据胶囊”为核心，融合加密授权、区块链、TEE技术构建工业数据“可用不可见”安全底座，依托相伴宝产业互联网平台实现设计图纸安全共享、产能精准匹配，预计降低供应链协同成本15%-20%、人工标注成本80%以上。",
+          "source": "平湖市政府 / 今日平湖",
+          "time": "2026-11-10",
+          "content": "\n## 一句话解读\n产业带数字化的最大障碍从来不是技术，而是企业间“凭什么信你”的问题——平湖用“数据胶囊+可用不可见”给出了一份可复制的信任技术方案。\n## 事件与背景\n在2026数据要素赋能新型工业化大赛全国总决赛上，平湖市项目斩获“工业数据安全赛道”一等奖。平湖是全国三大箱包生产基地之一，中小企业集聚，但供应链存在“不敢共享、不愿共享、不能共享”的数据协同难题：图纸怕泄露、产能数据怕被拿捏、接口标准不统一，产业在一体化发展上长期受限。\n## 技术方案拆解\n### 数据胶囊：给数据穿防护服\n项目打造以“数据胶囊”为核心的安全防护体系，确保企业数据不泄露、不被滥用。数据胶囊可理解为：数据被封装在一个受控执行环境里，使用方只能按授权规则调用计算结果，拿不到原始数据本身。\n### 三层技术底座\n- 加密授权：按业务场景细粒度授权，谁、在什么范围、能算什么。\n- 区块链：操作留痕、可信存证，共享行为可追溯。\n- TEE可信执行环境：数据在硬件级隔离环境中计算，实现工业数据“可用不可见”。\n### 落地场景与效果\n依托相伴宝产业互联网平台开展试点：设计图纸安全共享（品牌方与代工厂协同打样）、产能数据精准匹配（旺季产能缺口撮合）、跨企业协同生产调度。经测算，项目投用后预计降低供应链协同成本15%-20%、人工标注成本80%以上。\n## 为什么这个案例重要\n- 它回答了产业互联网的老大难问题：平台方不碰数据、企业敢上数据，协同才滚得动。“平湖方案”已具备向全国产业带复制的条件。\n- 政策面上，平湖已培育11家DCMM贯标试点企业、5家首席数据官试点企业、3家“成长型浙江数商”，相伴宝数据集入选浙江省首批工业领域重点行业高质量数据集——数据要素工作是从制度、人才、平台三条线一起推进的。\n## 对我们数字化工作的借鉴\n- 涉及跨部门/跨企业数据打通时，优先评估“可用不可见”类方案（隐私计算、TEE），比“把数据交出来”更容易谈成。\n- 产业协同平台先跑通1-2个高频刚需场景（图纸协同、产能撮合），再横向扩场景。\n- 数据治理前置：统一编码、统一数据标准是所有共享的前提，平湖的DCMM贯标铺底值得借鉴。\n"
         }
       ]
     },
@@ -185,19 +177,19 @@
       "articles": [
         {
           "id": "ov-001",
-          "title": "北京亦庄新质出海沙龙：从产品出海到生态出海的三国路径",
-          "summary": "11月6日进博会期间，北京亦庄举办新质出海主题沙龙，按“国别×赛道×要素”拆解三条出海路径：马来西亚电子信息重产业链嵌入，麦麦科技以农业机器人拿下标杆订单；新加坡数字经济重数据合规，爱诗科技产品覆盖177国、注册用户超1.7亿；印尼智能制造借外资准入放宽走一体化出海模式。",
-          "source": "科技日报",
-          "time": "2026-11-09",
-          "content": "\n## 活动看点\n这场沙龙的价值在于把“出海”拆成了可执行的组合参数：国别（去哪）、赛道（做什么）、要素（带什么能力）。三场圆桌对应三种完全不同的打法。\n## 马来西亚：产业链深度嵌入\n- 重点：电子信息与智能制造企业如何从产品输出转向嵌入本地产业链。\n- 样本：麦麦科技2026年2月在吉隆坡设立首个海外子公司，用农业垂直模型+特种机器人拿下大额标杆订单。CEO李楠总结为十二字：场景切入打标杆，生态协同扎深根——与本地龙头共建场景与标准，联合本地服务商、院校共建运维与人才体系。\n- 三道关：产品认证、融资用工、本地服务，合规能力要转化为长期竞争力。\n## 新加坡：数据合规先行\n- 重点：中新两套数据监管规则差异下的跨境数据流动路径。\n- 工具箱：数据出境安全评估、标准合同、个人信息保护认证三类合规工具。\n- 样本：爱诗科技产品覆盖全球177个国家和地区、注册用户超1.7亿；集思科技进入东南亚与北美。嘉宾共识：出海新加坡不是产品出海，而是生态出海。\n## 印尼：智能制造窗口期\n- 借当地放宽外资准入的政策红利，明确产品+方案+服务+合规+资金一体化出海模式，抢抓制造业升级机遇。\n## 三条通用结论\n- 合规前置：数据、认证、用工合规必须在方案设计期介入，事后补救成本数倍。\n- 本地共建：人才与服务体系的本地化深度，决定能否从单点订单走向持续经营。\n- 政府搭台：亦庄前三季度进出口增速32.1%、出口增长62.4%，多国出海服务基地+新质出海会客厅的全链条服务体系值得其他区域复制。\n"
+          "title": "中印尼数字基建合作再深化：1.6GW AI数据中心、6870公里海缆背后的“中方技术+印尼资源”模式",
+          "summary": "印尼卓和控股与中建三局签署AI数据中心战略合作框架协议：普哇加达AIDC项目总体规划IT容量约1.6GW，首期50MW目标明年四季度交付。同期印尼盛捷通信与烽火通信签约，为SGI海缆系统供货总长6870公里。东南亚正成为中企数字基建出海的主战场。",
+          "source": "中国经营报",
+          "time": "2026-11-10",
+          "content": "\n## 一句话解读\n东南亚的AI算力缺口给了中企一个完整出海链条的机会：海缆、数据中心、能源配套一起打包——“中方技术+建设能力换当地资源与运营牌照”成为标准范式。\n## 两个重磅签约\n### AI数据中心：1.6GW的长期蓝图\n印尼卓和控股与中建三局签署《人工智能数据中心项目战略合作框架协议》，围绕位于印尼普哇加达的AIDC项目深化合作：\n- 总体规划IT容量约1.6GW，首期IT容量50MW，目标2027年第四季度交付，拟由中国企业承建。\n- 合作范围涵盖工程设计、采购及施工总承包（EPC），包括数据中心及配套设施规划设计、土建、供配电、备用电源、制冷及液冷、消防安防及管理系统。\n- 此前10月19日，印尼方已在武汉与中建三局、江西久盛国际电力工程、国美金融科技资产管理签署三份备忘录，涉及光伏设备采购（规划最高2GW）、AI数据中心建设及潜在容量租赁（2027年起分期交付）。\n### 海缆：6870公里的数字高速路\n印尼盛捷通信与烽火通信签约，为SGI海缆系统的多个核心区段提供开放系统及关键设备，供货海缆总长6870公里，配套多个登陆站和分支节点，系统设计寿命25年。海缆是数据中心的前置条件——算力再大，没有国际带宽出口也是孤岛。\n## 合作模式的深层逻辑\n中建三局总经理刘鹏的表述点出了模式本质：中国伙伴提供技术、工程建设及供应链能力，印尼企业提供当地资源和运营能力。对印尼方，AI算力基础设施是其数字主权的关键一步；对中方，这是从卖设备升级到卖整套基础设施能力的跃迁，且EPC+F（融资）+运维的全链条参与，利润厚度远超单点供货。\n## 对出海企业的启示\n- 数字基建出海是“生态型生意”：数据中心需要电力（光伏配套）、带宽（海缆）、运维、金融（容量租赁）多要素齐备，单打独斗拿不下，联合体出海是常态。\n- 东南亚市场的窗口期与电力瓶颈并存：IT容量1.6GW级别的规划背后，绿色电力配套是稀缺资源，能解决能源问题的玩家才有入场券。\n- 合同结构值得注意：分期交付+容量租赁的安排，把重资产风险转化为长期现金流，是重资产出海可借鉴的结构。\n"
         },
         {
           "id": "ov-002",
-          "title": "东南亚AI消费化观察：新马企业级Token占近半，印尼菲越八成是个人在刷",
-          "summary": "出海媒体观察显示，东南亚AI使用呈两极结构：新加坡、马来西亚企业级负载占比45%-60%，商业化落地深；印尼、菲律宾、越南、泰国约80%来自个人消费与学习娱乐。腾讯云海外活跃客户一年翻倍、服务器超200万台，字节24亿美元锁定马印节点，OpenAI在新加坡设海外首个应用实验室。电商GMV 2026年预计2260亿美元，75%用户愿意让AI代买。",
-          "source": "白鲸出海",
-          "time": "2026-11-09",
-          "content": "\n## 一张结构图看懂东南亚AI市场\n出海东南亚做AI生意，第一个要回答的问题不是产品好不好，而是你的目标市场的“Token结构”是什么：\n- 新加坡、马来西亚：企业级负载占45%-60%，B端付费意愿与商业化深度高，适合SaaS、行业智能体、企业服务出海。\n- 印尼、菲律宾、越南、泰国：约80%的AI用量来自个人消费与日常学习娱乐，C端增长空间大，但ARPU低，适合广告、增值订阅、电商导购等变现模式。\n## 供给侧：算力基建赛开跑\n- 腾讯云：把东南亚列为海外AI战略核心战场，依托印尼三个数据中心，通过TokenHub聚合混元与第三方模型；过去一年海外活跃客户数翻倍，全球服务器总量突破200万台，AI产品国际需求三位数增长。\n- 字节跳动：加码24亿美元锁定马来西亚、印尼节点。\n- 阿里云：柔佛地域开服后继续扩建。\n- 欧美阵营：微软、亚马逊数百亿美元投向印尼、马来西亚、新加坡；OpenAI在新加坡设海外首个应用实验室，服务辐射东南亚五国，并与Grab合作培训数万名司机商户用AI。\n## 需求侧：电商是最强落地场景\n《e-Conomy SEA 2026》显示东南亚电商GMV预计达2260亿美元、同比增18%。AI已渗透购物链路：69%受访者在购买电子产品等复杂商品时用AI辅助对比；75%愿意让AI代替自己找最低价并直接下单；45%愿意在预设规则内把最终购买决策完全交给AI代理。消费端案例同样鲜活——李佳琦直播间带火东南亚下一个爆款，半小时卖出10万单。\n## 出海策略建议\n- B端产品优先落新马，按企业级SLA与合规标准定价。\n- C端产品主攻印菲越泰，用免费+增值模式吃流量，电商与AI导购是高频切口。\n- 无论哪条线，本地支付与物流履约能力决定转化上限，基建尚未收敛前先绑定平台生态。\n"
+          "title": "广西AI双线出海：润建2亿美元词元订单之后，智慧农业技术开始复制到东盟",
+          "summary": "广西依托毗邻东盟的区位优势，正在形成“算力出海+技术方案出海”双线格局：润建股份南宁五象云谷词元工厂每小时吞吐2000亿token，已交付80多个东盟算力与数据中心项目；同时崇左智慧甘蔗田、横州茉莉花AI诊断、扬翔集团智慧猪场等农业AI方案开始向东盟输出。",
+          "source": "China Daily 中国日报网",
+          "time": "2026-11-10",
+          "content": "\n## 一句话解读\n出海不只是卖算力——当一套种甘蔗的AI系统能在东盟复制时，“中国方案”才真正从基础设施层走到了应用层。\n## 算力出海：词元工厂模式\n润建股份近期拿下2亿美元海外词元服务订单。其南宁五象云谷词元工厂的商业模式值得细看：\n- 算力部署在国内，海外客户通过开放API发起大模型推理请求，按实际消耗的token计费。\n- 工厂集成绿色能源、800伏高压直流与微通道液冷技术，整体成本降低20%以上，产能提升700%。\n- 当前吞吐量每小时2000亿token，中期目标2万亿。\n- 南宁2026年获批国际数据合作试点城市，跨境数据处理合规路径打通；南宁国际通信关口局拥有15条跨境光缆，到新加坡、马来西亚、泰国、越南等主要东盟节点时延仅20-30毫秒。\n润建已有240多名海外员工，在东盟交付80多个算力与数据中心项目，近期又签署6个总金额超2.5亿元人民币的东盟算力网络基础设施项目。\n## 技术方案出海：从田间地头开始\n更值得关注的是应用层输出的萌芽：\n- 崇左建成全国首个智慧甘蔗农场，物联网监测与智能灌溉使土地利用率达95%，水肥消耗降低20%以上。\n- 横州18万亩茉莉花田接入数字化平台，农户拍照即可让AI诊断病虫害，准确率99%。\n- 扬翔集团智慧猪场融合AI视觉识别与精准饲喂，单人可管理4000头猪。\n- 东兴红树林养虾基地用AI水质监测算法实现高密度养殖，产量达传统方式20倍、节水90%。\n这些方案对东盟的吸引力很直接：东盟正从基础数字化向智能化应用升级，新能源、制造、农业是最热的三个领域，而中国的农业AI已在类似气候与产业结构里验证过。\n## 出海路径的三点观察\n- “一线城市研发+广西系统集成+东盟部署应用”的三段式路径，为中小技术企业出海提供了低门槛起步带。\n- 合规是分水岭：国际数据合作试点城市的政策红利，让南宁成了跨境数据业务的合规桥头堡。\n- 从卖token到卖方案：算力租赁是现金流生意，垂直行业方案才是利润与壁垒所在，两条腿缺一不可。\n"
         }
       ]
     },
@@ -208,19 +200,19 @@
       "articles": [
         {
           "id": "pm-001",
-          "title": "知识点：项目收尾与经验教训——项目不是交付完就结束，复盘才是资产沉淀",
-          "summary": "系统讲解项目收尾阶段的完整动作清单：行政收尾与合同收尾的区别、经验教训复盘会怎么开、知识如何入库复用。附一个复盘会实操模板和常见误区清单。来源PMBOK体系，面向项目经理进阶。",
+          "title": "知识点·风险管理四步法：识别、评估、应对、监控，用概率影响矩阵让风险“看得见、排得序”",
+          "summary": "项目管理知识点：风险管理的四步闭环——识别、定性定量评估、应对策略选择、持续监控。核心工具是概率-影响矩阵与风险登记册。附IT项目的完整实战示例、四种应对策略的选择标准与常见误区。",
           "source": "PMBOK 第七版",
           "time": "知识点",
-          "content": "\n## 为什么收尾最容易被敷衍\n现实中大量项目在最后一个里程碑上线后就自动“蒸发”了：团队解散、文档散落、教训无人记录。而PMBOK明确把收尾（Closing）列为独立过程组——因为收尾质量决定组织能否从项目中真正学到东西。项目除了交付物，还应该产出一份可复用的组织过程资产。\n## 收尾的两大类型\n- 合同收尾：面向乙方与供应商，确认所有合同交付物验收合格、尾款支付、保修与质保条款移交、合同正式关闭。有采购的项目必须走这一步，否则留下法律敞口。\n- 行政收尾：面向项目本身，包括最终验收报告、移交运维、财务决算、释放资源、归档文档、经验教训总结。\n## 经验教训复盘会实操模板\n一次合格的复盘会（Retrospective / Lessons Learned），建议90分钟内完成四段：\n- 数据回顾（15分钟）：用事实说话——进度偏差、成本偏差、需求变更次数、缺陷密度。只摆数字，先不做解释。\n- 做得好的（20分钟）：每个优点落到可复制的动作上，比如周报模板让干系人信息差减少，而不是笼统说团队给力。\n- 问题与根因（35分钟）：用五问法往下挖，区分偶发问题与系统性问题。纪律：对事不对人，不追责只找流程缺陷。\n- 行动项（20分钟）：每个改进点指定负责人与去向——进模板、进检查单、进制度，没有去向的改进项等于没有改进。\n## 知识沉淀的去向\n- 组织过程资产库：模板、检查单、估算数据库、风险清单。\n- 项目档案：计划、变更记录、验收文件，供后续项目估算参考。\n- 内部案例课：把关键决策写成一页纸案例，比厚报告更容易被传播。\n## 常见误区\n误区一：复盘会开成批斗会——心理安全感一旦崩塌，下次没人说真话，复盘价值归零。误区二：教训只留在会议纪要里——不入库的教训三个月后等于没发生。误区三：成功项目不复盘——成功往往藏着运气成分，不拆解清楚，好运不可复制。误区四：等收尾才复盘——敏捷团队每个迭代做小复盘，项目级大复盘的压力会小很多。\n"
+          "content": "\n## 一、为什么风险管理是项目管理的“保险丝”\n项目失败的常见剧本：进度延误了才发现某个关键供应商早就预警过延期；需求上线后爆炸，追溯发现风险清单里写着“需求变更频繁”却没人跟进。风险管理的价值，就是把“事后救火”变成“事前排雷”。PMBOK第七版把风险管理列为八大绩效域之一，核心是建立持续的风险循环，而不是开一次风险会就完事。\n## 二、四步法详解\n### 第一步：识别\n目标是建立完整的风险清单。常用手段：\n- 头脑风暴与专家访谈：拉上架构师、实施、运维一起过。\n- 检查表：基于历史项目风险库逐项核对。\n- SWOT与假设分析：检查计划背后的假设是否成立。\n输出物是风险登记册（Risk Register）：每条风险写清描述（风险事件+原因+影响）、责任人、状态。\n### 第二步：评估\n定性评估用概率-影响矩阵：概率（低/中/高）×影响（低/中/高）得出风险等级，把有限精力投给高分风险。定量评估在必要时做：蒙特卡洛模拟估算进度与成本置信区间、决策树计算期望货币值（EMV）。示例：某风险概率40%、损失80万，EMV=32万——如果应对成本只要10万，果断应对。\n### 第三步：应对\n- 威胁的四种策略：规避（改计划消除风险，如砍掉高风险需求）、转移（外包、买保险、合同罚则）、减轻（降概率或降影响，如提前做技术POC）、接受（低分风险记录在案，留应急储备）。\n- 机会也有对应策略：开拓、分享、提高、接受。\n每条中高分风险都要有明确的应对措施、责任人（风险Owner）和触发条件。\n### 第四步：监控\n风险不是静态的。定期（每双周或每迭代）刷新风险登记册：新风险入册、老风险关闭、等级重估；用燃尽图看应急储备消耗；风险审计检查应对措施是否真的落地。\n## 三、实战示例：一个CRM实施项目\n- 风险1：客户方接口人同时管三个项目，响应慢。评估：概率高、影响高（进度阻塞）。应对：减轻——合同中约定每周固定2小时对接窗口+升级机制。\n- 风险2：历史数据质量差，迁移超期。评估：概率高、影响中。应对：减轻——项目首周做数据质量抽检，按抽检结果重估迁移工期并预留2周缓冲。\n- 风险3：核心开发人员离职。评估：概率低、影响高。应对：减轻+接受——关键模块双人互备，接受残余风险并预留应急预算。\n## 四、常见误区\n- 风险清单只进不出：登记册变成只增不减的坟墓，季度翻出来全是过期条目。监控环节必须做“关闭”动作。\n- 把问题当风险：已发生的是问题，走问题管理流程；风险是“可能发生”，两者别混。\n- 只识别技术风险：干系人、资源、外部依赖（如政策、第三方接口）往往是更大的雷。\n- 应对措施没责任人：写了“加强沟通”四个字等于没写，措施必须是可执行的动作+具体的人+时间点。\n"
         },
         {
           "id": "pm-002",
-          "title": "知识点：项目范围管理——范围基准三件套与范围蔓延防控",
-          "summary": "系统讲解范围管理六大过程：规划、需求收集、定义范围、创建WBS、确认范围、控制范围。重点拆解范围基准（范围说明书+WBS+WBS词典）如何成为变更控制的标尺，以及镀金与范围蔓延两种典型病症的防控方法。面向项目经理与产品经理。",
+          "title": "知识点·挣值管理（EVM）：用CPI、SPI、EAC三个数字判断项目健康度",
+          "summary": "项目管理知识点：挣值管理EVM的三个基本值（PV/EV/AC）、两个偏差（CV/SV）、两个指数（CPI/SPI）与预测公式（EAC/ETC）。附数字完整的计算示例、四象限解读表和常见误区，让进度与成本问题在报表上无处遁形。",
           "source": "PMBOK 第七版",
           "time": "知识点",
-          "content": "\n## 范围失控的两个典型病症\n- 范围蔓延（Scope Creep）：未经正式变更控制，需求一点点渗进来。典型对话：这个按钮顺手加一下呗——单个看都小，累积起来工期失控。\n- 镀金（Gold Plating）：团队主动给产品加客户没要的功能。动机常常是好的，但消耗了本该用于承诺范围的时间，还引入了未经确认的风险。\n两者共同根源：没有清晰的范围基准，任何需求都无法判定算不算变更。\n## 范围基准三件套\n- 范围说明书：项目边界、可交付物清单、验收标准、除外责任（明确写哪些不做，这条最容易被忽略）。\n- WBS：把可交付物逐层分解到工作包，100%原则保证不遗漏、不重叠。\n- WBS词典：每个工作包的负责人、假设条件、验收标准。\n三件套经批准后即为范围基准。此后任何需求变化都必须走变更流程，与基准对照评估影响。\n## 需求收集：别只靠会议纪要\n- 常用技术：访谈、焦点小组、问卷、观察、原型法、需求 workshops。\n- 关键动作：需求跟踪矩阵（RTM），把每条需求从来源到设计、实现、测试、验收串起来，范围争议时它是最有力的证据链。\n- 确认范围：客户对可交付物做正式验收，与质量控制不同——QC管对不对，确认范围管接不接收。\n## 范围蔓延防控五招\n- 基准先行：范围基准批准之前，不进入详细设计。\n- 变更门槛：任何新需求一律提交变更请求，走CCB评估对进度、成本、质量的影响，哪怕再小。\n- 除外声明：范围说明书里明确列出本期不做的内容，会议纪要同步确认。\n- 缓冲透明：给客户看的排期不含隐藏缓冲，加需求就明确交换条件（砍别的范围、加资源或延期）。\n- 镀金治理：在团队章程里写明——未经确认的额外功能不算绩效，把创造性引导到承诺范围内做精。\n## 实战示例\n某系统改造项目上线前两周，业务方提出希望增加数据导出Excel功能。有范围基准的项目：PM评估需要3人天+回归测试1人天，提交CCB，结论是排入二期；无基准的项目：开发顺手做了，结果导出格式与财务系统不兼容，上线后返工，延期一周。差别不在能力，在流程。\n## 常见误区\n误区一：把变更控制当挡箭牌——流程目的是让决策透明，不是拒绝变化，敏捷项目同样有 Product Backlog 管变化。误区二：WBS越细越好——工作包粒度遵循8/80法则，过细徒增管理成本。误区三：范围管理只是PM的事——它需要发起人明确授权，否则PM挡不住老板的临时想法。\n"
+          "content": "\n## 一、EVM解决什么问题\n传统进度汇报说“已完成80%，钱花了85%”，听起来还行，但你不知道剩下的20%工作还要花多少钱。挣值管理（Earned Value Management）的巧思在于：给“完成的工作”标价，用同一把货币尺子同时量进度和成本，让项目健康度变成三个可比较的数字。\n## 二、三个基本值\n- PV（计划价值）：到某个时点，按计划应该完成多少工作，值多少钱——计划线。\n- EV（挣值）：到该时点，实际完成了多少工作，按计划价折算值多少钱——干的活折成钱。\n- AC（实际成本）：到该时点，实际花了多少钱。\n举例：项目总预算100万、工期10个月，均匀推进。第4个月末按计划应完成40%（PV=40万）；实际完成了30%的工作（EV=30万）；实际花了35万（AC=35万）。\n## 三、从基本值到诊断结论\n### 两个偏差\n- 成本偏差 CV = EV − AC = 30 − 35 = −5万（负数，超支）\n- 进度偏差 SV = EV − PV = 30 − 40 = −10万（负数，落后）\n### 两个指数\n- 成本绩效指数 CPI = EV ÷ AC = 30/35 ≈ 0.86（每花1元只干出8毛6的活）\n- 进度绩效指数 SPI = EV ÷ PV = 30/40 = 0.75（实际进度只有计划的75%）\n### 预测完工\n- 完工估算 EAC = BAC ÷ CPI = 100/0.86 ≈ 116万——照当前效率，最终要花约116万。\n- 完工尚需 ETC = EAC − AC ≈ 81万。\n- 完工尚需绩效指数 TCPI =（BAC−EV）÷（BAC−AC）= 70/65 ≈ 1.08——剩余工作要达到108%的成本效率才能回到预算内，明显偏难，及早调整。\n## 四、四象限解读表\n- CPI≥1 且 SPI≥1：成本节约、进度超前——保持节奏，警惕为赶进度牺牲质量。\n- CPI≥1 且 SPI<1：省钱但慢——常见于等待外部依赖，重点追进度。\n- CPI<1 且 SPI≥1：快但贵——常见于赶工加班，重点管成本与资源效率。\n- CPI<1 且 SPI<1：双差——红色项目，启动纠偏：重估EAC、调整范围或追加授权。\n## 五、实战要点\n- EV的计量规则要在项目启动时定死（里程碑法、百分比法、加权法），否则挣值算不准。\n- 汇报时EVM指标必须配行动：CPI=0.86的结论不能只是“超支了”，而是“采取XX措施，目标Q3回升至0.95以上”。\n- 用趋势而不用单点：连续三个周期CPI下滑比单月0.9更能说明问题。\n## 六、常见误区\n- 把EV当成AC比较：挣值按“计划价”折算完成工作，不要用实际成本算完成度。\n- SPI只看数值不看含义：接近尾声时EV逼近PV，SPI会自动回升，此时SPI已失真，改用关键路径分析。\n- 用EVM惩罚团队：EVM是诊断工具，一旦变成问责工具，数据填报就开始造假，指标随之失真。\n- 忽视质量与范围：CPI、SPI好看不代表项目成功，验收标准与干系人满意度同样要盯。\n"
         }
       ]
     }
